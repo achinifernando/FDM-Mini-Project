@@ -1,0 +1,22 @@
+# Raw datasets
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained models
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Environment variables
+.env
