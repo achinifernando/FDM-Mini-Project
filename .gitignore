@@ -1,6 +1,7 @@
 # Raw datasets
 data/raw/*
 data/interim/*
+!data/interim/ml_ready_base.csv
 data/processed/*
 
 # Python
