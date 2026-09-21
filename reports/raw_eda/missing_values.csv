@@ -1,0 +1,17 @@
+column,missing_values,missing_percent
+arithmetic_mean,24,0.001177215
+arithmetic_standard_dev,24,0.001177215
+first_max_value,22,0.001079114
+latitude,10,0.000490506
+longitude,10,0.000490506
+state_code,0,0
+parameter_name,0,0
+sample_duration,0,0
+year,0,0
+units_of_measure,0,0
+observation_count,0,0
+observation_percent,0,0
+valid_day_count,0,0
+ninety_five_percentile,0,0
+fifty_percentile,0,0
+state_name,0,0
