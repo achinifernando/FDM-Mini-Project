@@ -31,6 +31,34 @@ TARGET_COLUMN = "pm25_risk_category_next_year"
 # It must NEVER be supplied to the ML model.
 FUTURE_TARGET_VALUE = "next_year_pm25_target_concentration"
 
+HISTORY_FEATURES = [
+    "pm25_lag1",
+    "pm25_change_1yr",
+    "pm25_pct_change_1yr",
+    "pm25_lag2",
+    "pm25_rolling_2yr_mean",
+    "pm25_rolling_3yr_mean",
+    "pm25_rolling_3yr_std",
+]
+
+
+def prepare_model_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Encode unavailable history without inventing pollutant measurements."""
+
+    x = df.copy()
+
+    # Zero means no historical value was available; the indicator columns
+    # preserve the distinction between zero and unavailable history.
+    for column in HISTORY_FEATURES:
+        if column in x.columns:
+            x[column] = x[column].fillna(0)
+
+    for column in ["city_name", "cbsa_name"]:
+        if column in x.columns:
+            x[column] = x[column].fillna("Unknown")
+
+    return x.fillna("unknown")
+
 
 def add_history_features(
     df: pd.DataFrame,
@@ -286,6 +314,11 @@ def build_feature_dataset(
     # Generate historical features
     # -----------------------------------------------------
     out = add_history_features(df)
+
+    # Make absence-of-history explicit for downstream models. Raw pollutant
+    # measurements remain missing so train-time imputation can be fitted only
+    # on the training split.
+    out = prepare_model_features(out)
 
     # -----------------------------------------------------
     # CRITICAL LEAKAGE PREVENTION
