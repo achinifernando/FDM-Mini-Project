@@ -1,0 +1,16 @@
+state_name,Good,Moderate,Unhealthy for Sensitive Groups,Unhealthy,Very Unhealthy,Hazardous
+Alabama,1,257,135,8,1,0
+California,18,731,445,422,15,1
+Florida,2,346,73,19,1,0
+Georgia,0,252,171,44,3,0
+Illinois,0,237,229,20,0,0
+Indiana,0,274,320,52,1,0
+Iowa,0,188,143,8,0,0
+Kentucky,0,214,130,15,0,0
+Michigan,0,269,189,27,0,0
+New York,1,227,204,29,0,0
+North Carolina,1,389,164,22,0,0
+Ohio,0,398,349,36,0,0
+Pennsylvania,0,179,365,101,0,0
+Texas,2,412,113,13,4,0
+Wisconsin,2,198,196,9,0,0

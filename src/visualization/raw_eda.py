@@ -66,7 +66,7 @@ CATEGORY_COLUMNS = [
 ]
 
 # Extra columns we want to inspect but may not use as features
-EXTRA_COLUMNS = ["state_code", "county_code", "site_number", "datum"]
+EXTRA_COLUMNS = ["state_code", "county_code", "site_num", "datum"]
 
 USECOLS = sorted(set(NUMERIC_COLUMNS + CATEGORY_COLUMNS + EXTRA_COLUMNS))
 
