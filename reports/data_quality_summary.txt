@@ -1,0 +1,72 @@
+AIR QUALITY DATA QUALITY REPORT
+==================================================
+Input file: C:\Users\User\Desktop\FDM-Mini-Project\data\interim\ml_ready_base.csv
+Total rows: 16535
+Total columns: 38
+Unique monitoring sites: 1849
+Year range: 1997 - 2016
+
+DUPLICATE CHECKS
+--------------------------------------------------
+Fully duplicated rows: 0
+Duplicated site-year records: 0
+
+MISSING-VALUE CHECKS
+--------------------------------------------------
+Columns containing missing values: 0
+No missing values were found.
+
+INVALID-VALUE CHECKS
+--------------------------------------------------
+Infinite numeric values: 0
+Missing target values: 0
+
+TARGET CLASS DISTRIBUTION
+--------------------------------------------------
+Moderate: 9418 (56.96%)
+Unhealthy for Sensitive Groups: 5578 (33.73%)
+Unhealthy: 1398 (8.45%)
+Good: 86 (0.52%)
+Very Unhealthy: 51 (0.31%)
+Hazardous: 4 (0.02%)
+
+DATA TYPES
+--------------------------------------------------
+site_id: string
+state_code: string
+county_code: string
+site_num: string
+year: int64
+latitude: float64
+longitude: float64
+state_name: str
+county_name: str
+city_name: str
+cbsa_name: str
+observation_count: int64
+observation_percent: int64
+valid_day_count: int64
+arithmetic_standard_dev: float64
+first_max_value: float64
+ninety_nine_percentile: float64
+ninety_eight_percentile: float64
+ninety_five_percentile: float64
+ninety_percentile: float64
+seventy_five_percentile: float64
+fifty_percentile: float64
+ten_percentile: str
+pm25_mean: float64
+pm25_risk_category_next_year: str
+pm25_lag1: float64
+pm25_change_1yr: float64
+pm25_pct_change_1yr: float64
+pm25_lag2: float64
+pm25_rolling_2yr_mean: float64
+pm25_rolling_3yr_mean: float64
+pm25_rolling_3yr_std: float64
+p95_minus_median: float64
+p99_p10_range: str
+max_to_mean_ratio: float64
+observations_per_valid_day: float64
+has_previous_year: int64
+has_three_year_history: int64
