@@ -1,4 +1,6 @@
 column,null_values,unknown_values,null_percent,unknown_percent
+city_name,0,1967,0.0,11.89597822800121
+cbsa_name,0,1165,0.0,7.045660719685516
 ten_percentile,0,27,0.0,0.16328999092833385
 p99_p10_range,0,27,0.0,0.16328999092833385
 site_id,0,0,0.0,0.0
@@ -10,8 +12,6 @@ latitude,0,0,0.0,0.0
 longitude,0,0,0.0,0.0
 state_name,0,0,0.0,0.0
 county_name,0,0,0.0,0.0
-city_name,0,0,0.0,0.0
-cbsa_name,0,0,0.0,0.0
 observation_count,0,0,0.0,0.0
 observation_percent,0,0,0.0,0.0
 valid_day_count,0,0,0.0,0.0
