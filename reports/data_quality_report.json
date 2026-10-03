@@ -1,0 +1,106 @@
+{
+  "rows": 2038710,
+  "columns": 55,
+  "duplicate_full_rows": 0,
+  "missing_by_column": {
+    "state_code": 0,
+    "county_code": 0,
+    "site_num": 0,
+    "parameter_code": 0,
+    "poc": 0,
+    "latitude": 10,
+    "longitude": 10,
+    "datum": 0,
+    "parameter_name": 0,
+    "sample_duration": 0,
+    "pollutant_standard": 1521296,
+    "metric_used": 0,
+    "method_name": 216110,
+    "year": 0,
+    "units_of_measure": 0,
+    "event_type": 0,
+    "observation_count": 0,
+    "observation_percent": 0,
+    "completeness_indicator": 0,
+    "valid_day_count": 0,
+    "required_day_count": 0,
+    "exceptional_data_count": 0,
+    "null_data_count": 0,
+    "primary_exceedance_count": 1663792,
+    "secondary_exceedance_count": 1706561,
+    "certification_indicator": 0,
+    "num_obs_below_mdl": 0,
+    "arithmetic_mean": 24,
+    "arithmetic_standard_dev": 24,
+    "first_max_value": 22,
+    "first_max_datetime": 22,
+    "second_max_value": 17470,
+    "second_max_datetime": 17470,
+    "third_max_value": 30083,
+    "third_max_datetime": 30083,
+    "fourth_max_value": 41989,
+    "fourth_max_datetime": 41989,
+    "first_max_non_overlapping_value": 2020969,
+    "first_no_max_datetime": 2020969,
+    "second_max_non_overlapping_value": 2020973,
+    "second_no_max_datetime": 2020973,
+    "ninety_nine_percentile": 0,
+    "ninety_eight_percentile": 0,
+    "ninety_five_percentile": 0,
+    "ninety_percentile": 0,
+    "seventy_five_percentile": 0,
+    "fifty_percentile": 0,
+    "ten_percentile": 0,
+    "local_site_name": 390641,
+    "address": 1331,
+    "state_name": 0,
+    "county_name": 0,
+    "city_name": 354212,
+    "cbsa_name": 184085,
+    "date_of_last_change": 0
+  },
+  "numeric_checks": {
+    "latitude": {
+      "non_numeric_or_missing": 10,
+      "min": 0.0,
+      "max": 70.291947
+    },
+    "longitude": {
+      "non_numeric_or_missing": 10,
+      "min": -162.968,
+      "max": 144.833333
+    },
+    "year": {
+      "non_numeric_or_missing": 0,
+      "min": 1980.0,
+      "max": 2017.0
+    },
+    "observation_count": {
+      "non_numeric_or_missing": 0,
+      "min": 1.0,
+      "max": 105025.0
+    },
+    "observation_percent": {
+      "non_numeric_or_missing": 0,
+      "min": 0.0,
+      "max": 100.0
+    },
+    "valid_day_count": {
+      "non_numeric_or_missing": 0,
+      "min": 0.0,
+      "max": 366.0
+    },
+    "arithmetic_mean": {
+      "non_numeric_or_missing": 24,
+      "min": -415.958333,
+      "max": 73506.933243
+    }
+  },
+  "invalid_value_checks": {
+    "latitude_out_of_range": 0,
+    "longitude_out_of_range": 0,
+    "observation_percent_out_of_range": 0,
+    "negative_observation_count": 0,
+    "negative_valid_day_count": 0
+  }
+}
