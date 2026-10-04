@@ -1,0 +1,2 @@
+model,validation_accuracy,validation_macro_f1
+SVM (RBF) Tuned,0.754907459338194,0.4363555360057534

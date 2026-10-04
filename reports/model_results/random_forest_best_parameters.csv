@@ -1,0 +1,2 @@
+n_estimators,max_depth,min_samples_leaf,class_weight
+200,20,1,balanced

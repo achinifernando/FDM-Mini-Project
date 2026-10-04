@@ -1,0 +1,2 @@
+model,validation_accuracy,validation_macro_f1,baseline_accuracy,baseline_macro_f1,accuracy_change,macro_f1_change,best_n_estimators,best_max_depth,best_min_samples_leaf,best_class_weight
+Random Forest Tuned,0.765002804262479,0.40906720330759283,0.77005,0.346016,-0.005047195737520993,0.06305120330759284,200,20,1,balanced

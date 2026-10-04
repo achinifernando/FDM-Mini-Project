@@ -1,0 +1,2 @@
+model,validation_accuracy,validation_macro_f1,hyperparameter_tuning,model_optimization
+Random Forest Baseline,0.7689287717330342,0.3450889559105993,False,False
