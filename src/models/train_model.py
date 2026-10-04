@@ -25,6 +25,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import (
     accuracy_score,
     balanced_accuracy_score,
+    classification_report,
     confusion_matrix,
     ConfusionMatrixDisplay,
     f1_score,
@@ -148,19 +149,29 @@ def calculate_metrics(
         "macro_precision": precision_score(
             y_true,
             y_pred,
+            labels=TARGET_CLASSES,
             average="macro",
             zero_division=0,
         ),
         "macro_recall": recall_score(
             y_true,
             y_pred,
+            labels=TARGET_CLASSES,
             average="macro",
             zero_division=0,
         ),
         "macro_f1": f1_score(
             y_true,
             y_pred,
+            labels=TARGET_CLASSES,
             average="macro",
+            zero_division=0,
+        ),
+        "weighted_f1": f1_score(
+            y_true,
+            y_pred,
+            labels=TARGET_CLASSES,
+            average="weighted",
             zero_division=0,
         ),
     }
@@ -193,6 +204,7 @@ def print_metrics(metrics: dict) -> None:
     )
     print(f"Macro recall:      {metrics['macro_recall']:.4f}")
     print(f"Macro F1-score:    {metrics['macro_f1']:.4f}")
+    print(f"Weighted F1-score: {metrics['weighted_f1']:.4f}")
 
 
 # ------------------------------------------------------------
@@ -213,6 +225,17 @@ def save_confusion_matrix(
         y_pred,
         labels=TARGET_CLASSES,
     )
+
+    matrix_dataframe = pd.DataFrame(
+        matrix,
+        index=TARGET_CLASSES,
+        columns=TARGET_CLASSES,
+    )
+    matrix_dataframe.index.name = "actual"
+    matrix_dataframe.columns.name = "predicted"
+    matrix_path = REPORTS_DIR / "confusion_matrix.csv"
+    matrix_dataframe.to_csv(matrix_path)
+    print(f"Confusion matrix saved to: {matrix_path}")
 
     display = ConfusionMatrixDisplay(
         confusion_matrix=matrix,
@@ -247,6 +270,33 @@ def save_confusion_matrix(
     plt.close(figure)
 
     print(f"Confusion matrix saved to: {output_path}")
+
+
+def save_classification_report(
+    y_true: pd.Series,
+    y_pred,
+    model_name: str,
+    dataset_name: str,
+) -> None:
+    """Print and save per-class precision, recall and F1 results."""
+
+    report = classification_report(
+        y_true,
+        y_pred,
+        labels=TARGET_CLASSES,
+        target_names=TARGET_CLASSES,
+        zero_division=0,
+    )
+    print(f"\n{model_name} - {dataset_name.upper()} CLASSIFICATION REPORT")
+    print(report)
+
+    output_path = REPORTS_DIR / "classification_report.txt"
+    output_path.write_text(
+        f"{model_name} - {dataset_name.upper()} CLASSIFICATION REPORT\n\n"
+        f"{report}",
+        encoding="utf-8",
+    )
+    print(f"Classification report saved to: {output_path}")
 
 
 # ------------------------------------------------------------
@@ -334,10 +384,11 @@ def main() -> None:
         "Dummy Classifier": DummyClassifier(
             strategy="most_frequent",
         ),
-        "Logistic Regression": LogisticRegression(
+        "Multinomial Logistic Regression": LogisticRegression(
             class_weight="balanced",
             max_iter=2000,
             random_state=42,
+            solver="lbfgs",
         ),
     }
 
@@ -401,6 +452,13 @@ def main() -> None:
     )
 
     print_metrics(test_result)
+
+    save_classification_report(
+        y_true=y_test,
+        y_pred=test_predictions,
+        model_name=best_model_name,
+        dataset_name="test",
+    )
 
     # Save model comparison results.
     all_results = validation_results + [test_result]

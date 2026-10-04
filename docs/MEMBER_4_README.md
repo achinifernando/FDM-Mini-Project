@@ -162,9 +162,11 @@ Two baseline classifiers were trained.
 
 The Dummy Classifier used the `most_frequent` strategy. It provides a minimum reference by predicting the majority class.
 
-### 8.2 Logistic Regression
+### 8.2 Multinomial Logistic Regression
 
-Logistic Regression was used as the interpretable machine-learning baseline.
+Multinomial Logistic Regression was used as the interpretable machine-learning
+baseline. The `lbfgs` solver supports multinomial classification and is used
+with the five target classes.
 
 The following setting was used to reduce the effect of class imbalance:
 
@@ -185,9 +187,13 @@ The following metrics were calculated:
 - Macro precision
 - Macro recall
 - Macro F1-score
+- Weighted F1-score
 - Confusion matrix
+- Per-class classification report (precision, recall, F1-score and support)
 
 Accuracy was not used alone because the target dataset is imbalanced.
+The confusion matrix and classification report are generated for the selected
+model on the held-out test set.
 
 ---
 
@@ -244,10 +250,12 @@ Dataset-splitting outputs:
 Baseline outputs:
 
 - `reports/model_comparison.csv`
+- `reports/confusion_matrix.csv`
+- `reports/classification_report.txt`
 - `reports/figures/baseline_confusion_matrix.png`
 - `models/baseline/preprocessor.joblib`
 - `models/baseline/dummy_classifier.joblib`
-- `models/baseline/logistic_regression.joblib`
+- `models/baseline/multinomial_logistic_regression.joblib`
 - `models/baseline/best_baseline_bundle.joblib`
 
 Generated processed datasets and trained-model files are excluded from Git because they can be reproduced by running the scripts.
