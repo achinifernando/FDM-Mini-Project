@@ -1,0 +1,2155 @@
+feature,importance
+numeric__year,1266
+numeric__longitude,1196
+numeric__latitude,962
+numeric__max_to_mean_ratio,895
+numeric__observation_count,863
+numeric__observation_percent,612
+numeric__valid_day_count,609
+numeric__ten_percentile,602
+numeric__seventy_five_percentile,600
+numeric__pm25_change_1yr,594
+numeric__ninety_percentile,581
+numeric__first_max_value,555
+numeric__pm25_pct_change_1yr,543
+numeric__pm25_rolling_3yr_std,495
+numeric__arithmetic_standard_dev,491
+numeric__ninety_eight_percentile,489
+numeric__p95_minus_median,471
+numeric__pm25_lag2,438
+numeric__fifty_percentile,437
+numeric__pm25_mean,422
+numeric__ninety_five_percentile,386
+numeric__pm25_lag1,370
+numeric__p99_p10_range,336
+numeric__ninety_nine_percentile,277
+numeric__observations_per_valid_day,259
+numeric__pm25_rolling_2yr_mean,253
+numeric__pm25_rolling_3yr_mean,176
+categorical__county_name_Montgomery,110
+categorical__state_name_Oklahoma,106
+categorical__county_name_Hillsborough,72
+categorical__state_name_Alabama,67
+categorical__state_name_Utah,62
+categorical__cbsa_name_Tampa-St. Petersburg-Clearwater FL,54
+categorical__state_name_Pennsylvania,52
+categorical__state_name_Montana,52
+categorical__state_name_Texas,50
+categorical__state_name_Arkansas,48
+categorical__county_name_Harrison,46
+categorical__state_name_South Carolina,41
+categorical__city_name_Bakersfield,41
+categorical__city_name_El Paso,40
+categorical__state_name_Indiana,38
+categorical__state_name_Tennessee,38
+categorical__state_name_Idaho,36
+categorical__state_name_California,33
+categorical__county_name_Flathead,31
+categorical__cbsa_name_San Francisco-Oakland-Hayward CA,31
+categorical__state_name_Oregon,31
+categorical__state_name_Wisconsin,31
+categorical__cbsa_name_Logan UT-ID,30
+categorical__cbsa_name_New York-Newark-Jersey City NY-NJ-PA,30
+categorical__county_name_Fairbanks North Star,29
+categorical__county_name_Multnomah,29
+categorical__city_name_Honolulu,28
+categorical__cbsa_name_Indianapolis-Carmel-Anderson IN,28
+categorical__state_name_Washington,27
+categorical__county_name_Shasta,27
+categorical__city_name_Atlanta,27
+categorical__cbsa_name_Cincinnati OH-KY-IN,26
+categorical__cbsa_name_Memphis TN-MS-AR,26
+categorical__county_name_Fulton,26
+categorical__state_name_Iowa,26
+categorical__state_name_Minnesota,25
+categorical__state_name_Georgia,22
+categorical__state_name_North Dakota,21
+categorical__county_name_Lake,21
+categorical__county_name_Muscatine,21
+categorical__city_name_Missoula,21
+categorical__county_name_Roane,21
+categorical__state_name_South Dakota,20
+categorical__cbsa_name_Denver-Aurora-Lakewood CO,19
+categorical__county_name_Campbell,19
+categorical__state_name_Ohio,19
+categorical__county_name_Washington,19
+categorical__county_name_San Diego,19
+categorical__county_name_Kings,19
+categorical__state_name_North Carolina,19
+categorical__state_name_New Mexico,19
+categorical__county_name_Oklahoma,18
+categorical__cbsa_name_Minneapolis-St. Paul-Bloomington MN-WI,18
+categorical__state_name_Virginia,18
+categorical__county_name_Davidson,18
+categorical__county_name_Cook,18
+categorical__state_name_Mississippi,17
+categorical__county_name_Mobile,17
+categorical__county_name_Richland,17
+categorical__county_name_Houston,16
+categorical__county_name_Milwaukee,16
+categorical__county_name_Lewis and Clark,16
+categorical__county_name_Floyd,16
+categorical__county_name_Fresno,16
+categorical__cbsa_name_Pittsburgh PA,15
+categorical__state_name_New Jersey,15
+categorical__state_name_Nevada,15
+categorical__cbsa_name_Allentown-Bethlehem-Easton PA-NJ,14
+categorical__county_name_Humboldt,14
+categorical__county_name_Kern,14
+categorical__county_name_Chippewa,14
+categorical__county_name_Miami-Dade,14
+categorical__county_name_Utah,13
+categorical__state_name_Michigan,13
+categorical__city_name_Cedar Rapids,13
+categorical__state_name_Nebraska,13
+categorical__cbsa_name_Washington-Arlington-Alexandria DC-VA-MD-WV,13
+categorical__county_name_Ventura,13
+categorical__state_name_Illinois,12
+categorical__county_name_Kanawha,12
+categorical__cbsa_name_Boise City ID,12
+categorical__cbsa_name_Sioux City IA-NE-SD,11
+categorical__cbsa_name_Orlando-Kissimmee-Sanford FL,11
+categorical__county_name_Snohomish,11
+categorical__cbsa_name_Rapid City SD,11
+categorical__county_name_Hampden,10
+categorical__county_name_Fairfield,10
+categorical__cbsa_name_Philadelphia-Camden-Wilmington PA-NJ-DE-MD,10
+categorical__county_name_Plumas,10
+categorical__cbsa_name_Omaha-Council Bluffs NE-IA,10
+categorical__county_name_Porter,10
+categorical__city_name_Indianapolis (Remainder),9
+categorical__county_name_Jefferson,9
+categorical__city_name_Greenville,9
+categorical__state_name_New York,9
+categorical__city_name_New York,9
+categorical__state_name_Maryland,9
+categorical__city_name_Burlington,9
+categorical__county_name_Bannock,9
+categorical__cbsa_name_Raleigh NC,9
+categorical__cbsa_name_Virginia Beach-Norfolk-Newport News VA-NC,9
+categorical__state_name_Wyoming,8
+categorical__state_name_Louisiana,8
+categorical__county_name_Weld,8
+categorical__cbsa_name_Detroit-Warren-Dearborn MI,8
+categorical__state_name_Colorado,8
+categorical__city_name_Not in a city,8
+categorical__county_name_Palm Beach,7
+categorical__county_name_Hancock,7
+categorical__county_name_Hamilton,7
+categorical__county_name_El Paso,7
+categorical__state_name_Puerto Rico,7
+categorical__cbsa_name_Columbia SC,7
+categorical__county_name_Douglas,7
+categorical__county_name_Imperial,7
+categorical__cbsa_name_Buffalo-Cheektowaga-Niagara Falls NY,7
+categorical__city_name_San Diego,7
+categorical__state_name_Massachusetts,7
+categorical__county_name_Salt Lake,6
+categorical__county_name_Dona Ana,6
+categorical__cbsa_name_Chicago-Naperville-Elgin IL-IN-WI,6
+categorical__county_name_Grant,6
+categorical__cbsa_name_New Orleans-Metairie LA,6
+categorical__county_name_Vanderburgh,6
+categorical__city_name_Granite City,6
+categorical__cbsa_name_Los Angeles-Long Beach-Anaheim CA,6
+categorical__cbsa_name_Youngstown-Warren-Boardman OH-PA,6
+categorical__county_name_Santa Cruz,5
+categorical__cbsa_name_Gulfport-Biloxi-Pascagoula MS,5
+categorical__state_name_Delaware,5
+categorical__state_name_Kentucky,5
+categorical__city_name_Seattle,5
+categorical__city_name_Newark,5
+categorical__cbsa_name_Riverside-San Bernardino-Ontario CA,5
+categorical__county_name_Anne Arundel,5
+categorical__cbsa_name_Anchorage AK,5
+categorical__cbsa_name_Akron OH,5
+categorical__county_name_Missoula,5
+categorical__cbsa_name_Cleveland-Elyria OH,5
+categorical__cbsa_name_Harrisburg-Carlisle PA,4
+categorical__cbsa_name_Atlanta-Sandy Springs-Roswell GA,4
+categorical__county_name_Lucas,4
+categorical__county_name_Sandoval,4
+categorical__state_name_Missouri,4
+categorical__county_name_King,4
+categorical__county_name_Wayne,4
+categorical__county_name_Nevada,4
+categorical__city_name_Bristol,3
+categorical__county_name_Linn,3
+categorical__state_name_Connecticut,3
+categorical__cbsa_name_Kansas City MO-KS,3
+categorical__county_name_Bexar,3
+categorical__cbsa_name_Gillette WY,3
+categorical__county_name_San Bernardino,3
+categorical__state_name_Kansas,3
+categorical__city_name_Columbus,3
+categorical__cbsa_name_Salt Lake City UT,3
+categorical__city_name_Helena,3
+categorical__county_name_Adams,3
+categorical__cbsa_name_Huntington-Ashland WV-KY-OH,3
+categorical__city_name_Fresno,2
+categorical__county_name_Clark,2
+categorical__county_name_Onondaga,2
+categorical__county_name_Pinellas,2
+categorical__county_name_Lancaster,2
+categorical__county_name_Matanuska-Susitna,2
+categorical__county_name_Muscogee,2
+categorical__county_name_Hudson,2
+categorical__county_name_Ramsey,2
+categorical__county_name_Hawaii,2
+categorical__city_name_Dayton,2
+categorical__cbsa_name_Kingsport-Bristol-Bristol TN-VA,2
+categorical__city_name_Charleston,2
+categorical__city_name_Indianapolis,2
+categorical__county_name_Brooke,2
+categorical__county_name_Weber,2
+categorical__state_name_Florida,2
+categorical__county_name_St. Joseph,2
+categorical__county_name_Saint Louis,2
+categorical__county_name_Kent,1
+categorical__county_name_Wake,1
+categorical__cbsa_name_St. Louis MO-IL,1
+categorical__county_name_Scott,1
+categorical__cbsa_name_Boston-Cambridge-Newton MA-NH,1
+categorical__county_name_Franklin,1
+categorical__county_name_Maricopa,1
+categorical__county_name_Pierce,1
+categorical__cbsa_name_Ogden-Clearfield UT,1
+categorical__county_name_DeKalb,1
+categorical__cbsa_name_Phoenix-Mesa-Scottsdale AZ,1
+categorical__county_name_Marion,1
+categorical__city_name_Lancaster,1
+categorical__cbsa_name_Clarksville TN-KY,1
+categorical__county_name_Saint Clair,1
+categorical__county_name_St. Louis City,1
+categorical__county_name_Allegheny,1
+categorical__state_name_New Hampshire,1
+categorical__county_name_Union,1
+categorical__county_name_New Castle,1
+categorical__cbsa_name_Ponce PR,1
+numeric__has_previous_year,1
+categorical__cbsa_name_Little Rock-North Little Rock-Conway AR,1
+numeric__has_three_year_history,1
+categorical__county_name_Pulaski,1
+categorical__cbsa_name_Baltimore-Columbia-Towson MD,1
+categorical__cbsa_name_Portland-Vancouver-Hillsboro OR-WA,1
+categorical__cbsa_name_Dayton OH,1
+categorical__state_name_Arizona,1
+categorical__county_name_Providence,1
+categorical__state_name_Hawaii,1
+categorical__county_name_Lane,1
+categorical__city_name_Roxborough Park,0
+categorical__city_name_Rutland,0
+categorical__city_name_Union City,0
+categorical__city_name_Saint Petersburg,0
+categorical__city_name_Saginaw,0
+categorical__city_name_San Marcos,0
+categorical__city_name_Sacramento,0
+categorical__city_name_Tuscaloosa,0
+categorical__city_name_Utica,0
+categorical__city_name_San Luis Obispo,0
+categorical__city_name_Russellville,0
+categorical__city_name_Rubidoux,0
+categorical__city_name_Tupelo,0
+categorical__city_name_Tulsa,0
+categorical__city_name_Royal Palm Beach,0
+categorical__city_name_Valdosta,0
+categorical__city_name_Twin Falls,0
+categorical__city_name_Salem,0
+categorical__city_name_San Juan,0
+categorical__city_name_Salinas,0
+categorical__city_name_Salt Lake City,0
+categorical__city_name_Trenton,0
+categorical__city_name_Underhill (Town of),0
+categorical__city_name_Tucson,0
+categorical__city_name_Truckee,0
+categorical__city_name_San Bernardino,0
+categorical__city_name_Ukiah,0
+categorical__city_name_San Andreas,0
+categorical__city_name_San Francisco,0
+categorical__city_name_San Antonio,0
+categorical__city_name_San Benito,0
+categorical__city_name_San Jose,0
+categorical__city_name_Twisp,0
+categorical__city_name_St. Louis,0
+categorical__city_name_Roland,0
+categorical__city_name_Vallejo,0
+categorical__city_name_Virginia Beach,0
+categorical__city_name_Riverside,0
+categorical__city_name_Ritzville,0
+categorical__city_name_Rio Rancho Estates,0
+categorical__city_name_Ridgecrest,0
+categorical__city_name_Ridge Wood Heights,0
+categorical__city_name_Richmond,0
+categorical__city_name_Richfield,0
+categorical__city_name_Reseda,0
+categorical__city_name_Reno,0
+categorical__city_name_Redwood City,0
+categorical__city_name_Waco,0
+categorical__city_name_Redmond,0
+categorical__city_name_Waggaman,0
+categorical__city_name_Redding,0
+categorical__city_name_Reading,0
+categorical__city_name_Walla Walla,0
+categorical__city_name_Ravenna,0
+categorical__city_name_Rapid City,0
+categorical__city_name_Rangely,0
+categorical__city_name_Raleigh,0
+categorical__city_name_Rahway,0
+categorical__city_name_Visalia,0
+categorical__city_name_Virginia,0
+categorical__city_name_Roswell,0
+categorical__city_name_Riviera Beach,0
+categorical__city_name_Valrico,0
+categorical__city_name_Roslyn Heights (RR name Rosalyn (sta.)),0
+categorical__city_name_Vancouver,0
+categorical__city_name_Roslyn,0
+categorical__city_name_Roseville,0
+categorical__city_name_Roseburg,0
+categorical__city_name_Vicksburg,0
+categorical__city_name_Rome,0
+categorical__city_name_Toppenish,0
+categorical__city_name_Rocky Mount,0
+categorical__city_name_Victorville,0
+categorical__city_name_Rockwell,0
+categorical__city_name_Rockford,0
+categorical__city_name_Vidalia,0
+categorical__city_name_Vienna,0
+categorical__city_name_Rock Springs,0
+categorical__city_name_Rock Island Arsenal (U.S. Army),0
+categorical__city_name_Vinton,0
+categorical__city_name_Rochester,0
+categorical__city_name_Roanoke,0
+categorical__city_name_Virgin,0
+categorical__city_name_Traverse City,0
+categorical__city_name_Sanford,0
+categorical__city_name_Topeka,0
+categorical__city_name_Smiths Grove,0
+categorical__city_name_Stow,0
+categorical__city_name_Somerset,0
+categorical__city_name_Stowe (Township of),0
+categorical__city_name_Soldotna,0
+categorical__city_name_Soddy-Daisy,0
+categorical__city_name_Stroud,0
+categorical__city_name_Stuttgart,0
+categorical__city_name_Sugar Creek,0
+categorical__city_name_Suitland-Silver Hill,0
+categorical__city_name_Soda Springs,0
+categorical__city_name_Sioux Falls,0
+categorical__city_name_Shepherdsville,0
+categorical__city_name_Sioux City,0
+categorical__city_name_Simpsonville,0
+categorical__city_name_Simi Valley,0
+categorical__city_name_Summit,0
+categorical__city_name_Silver City,0
+categorical__city_name_Silver Bay,0
+categorical__city_name_Suncook,0
+categorical__city_name_Sunrise Manor,0
+categorical__city_name_Shreveport,0
+categorical__city_name_Sheridan,0
+categorical__city_name_Stockton,0
+categorical__city_name_South Bend,0
+categorical__city_name_South Charleston,0
+categorical__city_name_Stillwater,0
+categorical__city_name_St. Michael,0
+categorical__city_name_St. Joseph,0
+categorical__city_name_St. Cloud,0
+categorical__city_name_St. Paul,0
+categorical__city_name_St. Bernard,0
+categorical__city_name_Spruce Pine,0
+categorical__city_name_Stamford,0
+categorical__city_name_Quincy,0
+categorical__city_name_Springdale,0
+categorical__city_name_Spokane,0
+categorical__city_name_Spartanburg,0
+categorical__city_name_Sparks,0
+categorical__city_name_State College,0
+categorical__city_name_Spanish Fork,0
+categorical__city_name_Ste. Genevieve,0
+categorical__city_name_South Valley,0
+categorical__city_name_Steamboat Springs,0
+categorical__city_name_Steubenville,0
+categorical__city_name_South Padre Island,0
+categorical__city_name_South Lake Tahoe,0
+categorical__city_name_South Hill,0
+categorical__city_name_Sunset Hills,0
+categorical__city_name_Superior,0
+categorical__city_name_Tooele,0
+categorical__city_name_Sault Ste. Marie,0
+categorical__city_name_Scottsdale,0
+categorical__city_name_Texas City,0
+categorical__city_name_Theodore,0
+categorical__city_name_Thomaston,0
+categorical__city_name_Scottsbluff,0
+categorical__city_name_Schiller Park,0
+categorical__city_name_Schenectady,0
+categorical__city_name_Savannah,0
+categorical__city_name_Thompson Falls,0
+categorical__city_name_Thousand Oaks,0
+categorical__city_name_Santa Rosa,0
+categorical__city_name_Shelton,0
+categorical__city_name_Santa Maria,0
+categorical__city_name_Santa Fe,0
+categorical__city_name_Santa Barbara,0
+categorical__city_name_Toledo,0
+categorical__city_name_St. Louis Park,0
+categorical__city_name_Sandpoint,0
+categorical__city_name_Sandersville,0
+categorical__city_name_Toms River,0
+categorical__city_name_San Rafael,0
+categorical__city_name_San Pablo,0
+categorical__city_name_Texarkana,0
+categorical__city_name_Scranton,0
+categorical__city_name_Terre Haute,0
+categorical__city_name_Seaford,0
+categorical__city_name_Sheffield,0
+categorical__city_name_Swansea,0
+categorical__city_name_Sweet Home,0
+categorical__city_name_Shawnee,0
+categorical__city_name_Shasta Lake,0
+categorical__city_name_Sharonville,0
+categorical__city_name_Sharon,0
+categorical__city_name_Shakopee,0
+categorical__city_name_Seven Oaks,0
+categorical__city_name_Seven Corners,0
+categorical__city_name_Syracuse,0
+categorical__city_name_Selma,0
+categorical__city_name_Tacoma,0
+categorical__city_name_Seeley Lake,0
+categorical__city_name_Tallahassee,0
+categorical__city_name_Tampa,0
+categorical__city_name_Taylors,0
+categorical__city_name_Tecumseh,0
+categorical__city_name_Telluride,0
+categorical__city_name_Searcy,0
+categorical__city_name_Tempe,0
+categorical__city_name_Springfield,0
+categorical__city_name_Parker,0
+categorical__city_name_Pullman,0
+categorical__city_name_Mena,0
+categorical__city_name_Melbourne,0
+categorical__city_name_Medford,0
+categorical__city_name_McLean,0
+categorical__city_name_McDonald,0
+categorical__city_name_McCook,0
+categorical__city_name_McCandless Township,0
+categorical__city_name_McAlester,0
+categorical__city_name_Mayaguez,0
+categorical__city_name_Mason City,0
+categorical__city_name_Maryville,0
+categorical__city_name_Marysville,0
+categorical__city_name_Martinsburg,0
+categorical__city_name_Marshall,0
+categorical__city_name_Marrero,0
+categorical__city_name_Marion,0
+categorical__city_name_Maricopa,0
+categorical__city_name_Marble City Community,0
+categorical__city_name_Manistee,0
+categorical__city_name_Manchester,0
+categorical__city_name_Mammoth Lakes,0
+categorical__city_name_Mamaroneck,0
+categorical__city_name_Magna,0
+categorical__city_name_Madison,0
+categorical__city_name_Madera,0
+categorical__city_name_Macon,0
+categorical__city_name_Lynwood,0
+categorical__city_name_Lynn,0
+categorical__city_name_Lynchburg,0
+categorical__city_name_Luna Pier,0
+categorical__city_name_Memphis,0
+categorical__city_name_Meraux,0
+categorical__city_name_Pueblo,0
+categorical__city_name_Merced,0
+categorical__city_name_Mountain View,0
+categorical__city_name_Mount Vernon,0
+categorical__city_name_Mount Crested Butte,0
+categorical__city_name_Moundsville,0
+categorical__city_name_Moses Lake,0
+categorical__city_name_Moscow,0
+categorical__city_name_Morristown,0
+categorical__city_name_Morgantown,0
+categorical__city_name_Montgomery,0
+categorical__city_name_Monroe,0
+categorical__city_name_Moncks Corner,0
+categorical__city_name_Moline,0
+categorical__city_name_Mojave,0
+categorical__city_name_Modesto,0
+categorical__city_name_Mission Viejo,0
+categorical__city_name_Mission,0
+categorical__city_name_Mira Loma,0
+categorical__city_name_Minneapolis,0
+categorical__city_name_Mingo Junction,0
+categorical__city_name_Milwaukee,0
+categorical__city_name_Millington,0
+categorical__city_name_Midlothian,0
+categorical__city_name_Middletown,0
+categorical__city_name_Middlesborough (corporate name for Middlesboro),0
+categorical__city_name_Michigan City,0
+categorical__city_name_Miami,0
+categorical__city_name_Metairie,0
+categorical__city_name_Mesa,0
+categorical__city_name_Meridian,0
+categorical__city_name_Lumberton,0
+categorical__city_name_Lubbock,0
+categorical__city_name_Lowell,0
+categorical__city_name_Louisville,0
+categorical__city_name_Lares,0
+categorical__city_name_Laredo,0
+categorical__city_name_Laramie,0
+categorical__city_name_Lansing,0
+categorical__city_name_Lander,0
+categorical__city_name_Lakeview,0
+categorical__city_name_Lakeport,0
+categorical__city_name_Lakeland,0
+categorical__city_name_Lake Forest Park,0
+categorical__city_name_Lake Charles,0
+categorical__city_name_Lafayette,0
+categorical__city_name_Ladue,0
+categorical__city_name_Laconia,0
+categorical__city_name_Lackawanna,0
+categorical__city_name_Lacey,0
+categorical__city_name_La Porte,0
+categorical__city_name_La Grande,0
+categorical__city_name_La Crosse,0
+categorical__city_name_Kurtistown,0
+categorical__city_name_Kokomo,0
+categorical__city_name_Knoxville,0
+categorical__city_name_Knowlton (Township of),0
+categorical__city_name_Kittanning,0
+categorical__city_name_Kinston,0
+categorical__city_name_Kingston,0
+categorical__city_name_Kingsport,0
+categorical__city_name_King City,0
+categorical__city_name_Kiln,0
+categorical__city_name_Kihei,0
+categorical__city_name_Las Cruces,0
+categorical__city_name_Las Vegas,0
+categorical__city_name_Laurel,0
+categorical__city_name_Little Rock,0
+categorical__city_name_Loudon,0
+categorical__city_name_Los Angeles,0
+categorical__city_name_Loretto,0
+categorical__city_name_Lorain,0
+categorical__city_name_Longview,0
+categorical__city_name_Longmont,0
+categorical__city_name_Long Beach,0
+categorical__city_name_London,0
+categorical__city_name_Logan,0
+categorical__city_name_Livonia,0
+categorical__city_name_Livermore,0
+categorical__city_name_Live Oak,0
+categorical__city_name_Littleton,0
+categorical__city_name_Lindon,0
+categorical__city_name_Lawrence,0
+categorical__city_name_Lincoln,0
+categorical__city_name_Lima,0
+categorical__city_name_Lignite,0
+categorical__city_name_Liberty,0
+categorical__city_name_Libby,0
+categorical__city_name_Lexington-Fayette (corporate name for Lexington),0
+categorical__city_name_Lexington,0
+categorical__city_name_Lewiston,0
+categorical__city_name_Leeds,0
+categorical__city_name_Lebanon,0
+categorical__city_name_Leander,0
+categorical__city_name_League City,0
+categorical__city_name_Lawton,0
+categorical__city_name_Mountlake Terrace,0
+categorical__city_name_Muncie,0
+categorical__city_name_Muscatine,0
+categorical__city_name_Pala,0
+categorical__city_name_Pinehurst (Pine Creek),0
+categorical__city_name_Pinedale,0
+categorical__city_name_Pine Bluff,0
+categorical__city_name_Pikeville,0
+categorical__city_name_Pico Rivera,0
+categorical__city_name_Phoenix,0
+categorical__city_name_Phillipsburg,0
+categorical__city_name_Philadelphia,0
+categorical__city_name_Phenix City,0
+categorical__city_name_Peterborough (Peterboro),0
+categorical__city_name_Peoria,0
+categorical__city_name_Pensacola,0
+categorical__city_name_Pennsauken (Pensauken),0
+categorical__city_name_Pendleton,0
+categorical__city_name_Pelham,0
+categorical__city_name_Pearl City,0
+categorical__city_name_Pearl,0
+categorical__city_name_Peach Springs,0
+categorical__city_name_Payson,0
+categorical__city_name_Pawtucket,0
+categorical__city_name_Paterson,0
+categorical__city_name_Pascagoula,0
+categorical__city_name_Pasadena,0
+categorical__city_name_Parma,0
+categorical__city_name_Warner Robins,0
+categorical__city_name_Park Hill,0
+categorical__city_name_Panama City,0
+categorical__city_name_Palmer,0
+categorical__city_name_Palm Springs North,0
+categorical__city_name_Pinson,0
+categorical__city_name_Piru,0
+categorical__city_name_Pittsboro,0
+categorical__city_name_Portola,0
+categorical__city_name_Pryor (corporate name Pryor Creek),0
+categorical__city_name_Provo,0
+categorical__city_name_Providence,0
+categorical__city_name_Prineville,0
+categorical__city_name_Preston,0
+categorical__city_name_Presque Isle,0
+categorical__city_name_Prescott Valley,0
+categorical__city_name_Powder Springs,0
+categorical__city_name_Poughkeepsie,0
+categorical__city_name_Potsdam,0
+categorical__city_name_Potosi,0
+categorical__city_name_Post Falls,0
+categorical__city_name_Portsmouth,0
+categorical__city_name_Portland,0
+categorical__city_name_Pittsburgh,0
+categorical__city_name_Port Townsend,0
+categorical__city_name_Port Huron,0
+categorical__city_name_Port Arthur,0
+categorical__city_name_Port Angeles,0
+categorical__city_name_Ponce,0
+categorical__city_name_Ponca City,0
+categorical__city_name_Pompano Beach Highlands,0
+categorical__city_name_Pompano Beach,0
+categorical__city_name_Polson,0
+categorical__city_name_Pocatello,0
+categorical__city_name_Pleasant Prairie,0
+categorical__city_name_Platteville,0
+categorical__city_name_Pittsfield,0
+categorical__city_name_Palm Springs,0
+categorical__city_name_Painesville,0
+categorical__city_name_Muscle Shoals,0
+categorical__city_name_Pahala,0
+categorical__city_name_North Charleston,0
+categorical__city_name_North Brunswick Township,0
+categorical__city_name_North Braddock,0
+categorical__city_name_North Bend (Northbend),0
+categorical__city_name_Norristown,0
+categorical__city_name_Normal,0
+categorical__city_name_Norfolk,0
+categorical__city_name_Nogales,0
+categorical__city_name_Nipomo,0
+categorical__city_name_Niagara Falls,0
+categorical__city_name_Newport News,0
+categorical__city_name_Newport,0
+categorical__city_name_Newburgh Heights,0
+categorical__city_name_Newburgh,0
+categorical__city_name_New Paris,0
+categorical__city_name_New Orleans,0
+categorical__city_name_New Haven,0
+categorical__city_name_New Bedford,0
+categorical__city_name_New Albany,0
+categorical__city_name_Nazlini (Trading Post),0
+categorical__city_name_Natchez,0
+categorical__city_name_Nashville,0
+categorical__city_name_Nashua,0
+categorical__city_name_Naperville,0
+categorical__city_name_Napa,0
+categorical__city_name_Nampa,0
+categorical__city_name_Myrtle Beach,0
+categorical__city_name_Muskogee,0
+categorical__city_name_Muskegon,0
+categorical__city_name_North Kansas City,0
+categorical__city_name_North Las Vegas,0
+categorical__city_name_North Little Rock,0
+categorical__city_name_Oglesby,0
+categorical__city_name_Pagosa Springs,0
+categorical__city_name_Paducah,0
+categorical__city_name_Owensboro,0
+categorical__city_name_Overland Park,0
+categorical__city_name_Oshkosh,0
+categorical__city_name_Orlando,0
+categorical__city_name_Orangeburg,0
+categorical__city_name_Ontario,0
+categorical__city_name_Onamia,0
+categorical__city_name_Omaha,0
+categorical__city_name_Olathe,0
+categorical__city_name_Oklahoma City,0
+categorical__city_name_Ojai,0
+categorical__city_name_Ogden Dunes (Wickliffe),0
+categorical__city_name_North Mankato,0
+categorical__city_name_Ogden,0
+categorical__city_name_Odessa,0
+categorical__city_name_Ocala,0
+categorical__city_name_Oakville,0
+categorical__city_name_Oakridge,0
+categorical__city_name_Oakland,0
+categorical__city_name_Oak Park,0
+categorical__city_name_Norwood,0
+categorical__city_name_Norwich,0
+categorical__city_name_Norwalk,0
+categorical__city_name_Northbrook,0
+categorical__city_name_North Pole,0
+categorical__city_name_North Platte,0
+categorical__city_name_Ware (census name for Ware Center),0
+categorical__cbsa_name_Bay City MI,0
+categorical__city_name_Warren,0
+categorical__cbsa_name_Jamestown-Dunkirk-Fredonia NY,0
+categorical__cbsa_name_New Castle IN,0
+categorical__cbsa_name_Natchez MS-LA,0
+categorical__cbsa_name_Nashville-Davidson--Murfreesboro--Franklin TN,0
+categorical__cbsa_name_Napa CA,0
+categorical__cbsa_name_Myrtle Beach-Conway-North Myrtle Beach SC-NC,0
+categorical__cbsa_name_Muskogee OK,0
+categorical__cbsa_name_Muskegon MI,0
+categorical__cbsa_name_Muscatine IA,0
+categorical__cbsa_name_Muncie IN,0
+categorical__cbsa_name_Mount Vernon-Anacortes WA,0
+categorical__cbsa_name_Mount Vernon IL,0
+categorical__cbsa_name_Moses Lake WA,0
+categorical__cbsa_name_Moscow ID,0
+categorical__cbsa_name_Morgantown WV,0
+categorical__cbsa_name_Montgomery AL,0
+categorical__cbsa_name_Monroe MI,0
+categorical__cbsa_name_Monroe LA,0
+categorical__cbsa_name_Modesto CA,0
+categorical__cbsa_name_Mobile AL,0
+categorical__cbsa_name_Missoula MT,0
+categorical__cbsa_name_Milwaukee-Waukesha-West Allis WI,0
+categorical__cbsa_name_Middlesborough KY,0
+categorical__cbsa_name_Michigan City-La Porte IN,0
+categorical__cbsa_name_Miami-Fort Lauderdale-West Palm Beach FL,0
+categorical__cbsa_name_Miami OK,0
+categorical__cbsa_name_Meridian MS,0
+categorical__cbsa_name_Merced CA,0
+categorical__cbsa_name_New Haven-Milford CT,0
+categorical__cbsa_name_Niles-Benton Harbor MI,0
+categorical__cbsa_name_Nogales AZ,0
+categorical__cbsa_name_Paducah KY-IL,0
+categorical__cbsa_name_Ponca City OK,0
+categorical__cbsa_name_Pocatello ID,0
+categorical__cbsa_name_Platteville WI,0
+categorical__cbsa_name_Pittsfield MA,0
+categorical__cbsa_name_Pine Bluff AR,0
+categorical__cbsa_name_Picayune MS,0
+categorical__cbsa_name_Peoria IL,0
+categorical__cbsa_name_Pensacola-Ferry Pass-Brent FL,0
+categorical__cbsa_name_Payson AZ,0
+categorical__cbsa_name_Parkersburg-Vienna WV,0
+categorical__cbsa_name_Panama City FL,0
+categorical__cbsa_name_Palm Bay-Melbourne-Titusville FL,0
+categorical__cbsa_name_Oxnard-Thousand Oaks-Ventura CA,0
+categorical__cbsa_name_North Platte NE,0
+categorical__cbsa_name_Owensboro KY,0
+categorical__cbsa_name_Ottawa-Peru IL,0
+categorical__cbsa_name_Othello WA,0
+categorical__cbsa_name_Oshkosh-Neenah WI,0
+categorical__cbsa_name_Orangeburg SC,0
+categorical__cbsa_name_Olympia-Tumwater WA,0
+categorical__cbsa_name_Oklahoma City OK,0
+categorical__cbsa_name_Ogdensburg-Massena NY,0
+categorical__cbsa_name_Odessa TX,0
+categorical__cbsa_name_Ocala FL,0
+categorical__cbsa_name_Norwich-New London CT,0
+categorical__cbsa_name_North Port-Sarasota-Bradenton FL,0
+categorical__cbsa_name_Medford OR,0
+categorical__cbsa_name_McAllen-Edinburg-Mission TX,0
+categorical__cbsa_name_McAlester OK,0
+categorical__cbsa_name_Kinston NC,0
+categorical__cbsa_name_Lancaster PA,0
+categorical__cbsa_name_Lakeland-Winter Haven FL,0
+categorical__cbsa_name_Lake Havasu City-Kingman AZ,0
+categorical__cbsa_name_Lake Charles LA,0
+categorical__cbsa_name_Lafayette-West Lafayette IN,0
+categorical__cbsa_name_Lafayette LA,0
+categorical__cbsa_name_Laconia NH,0
+categorical__cbsa_name_La Grande OR,0
+categorical__cbsa_name_La Crosse-Onalaska WI-MN,0
+categorical__cbsa_name_Kokomo IN,0
+categorical__cbsa_name_Knoxville TN,0
+categorical__cbsa_name_Klamath Falls OR,0
+categorical__cbsa_name_Kingsville TX,0
+categorical__cbsa_name_Laramie WY,0
+categorical__cbsa_name_Ketchikan AK,0
+categorical__cbsa_name_Kennewick-Richland WA,0
+categorical__cbsa_name_Keene NH,0
+categorical__cbsa_name_Kapaa HI,0
+categorical__cbsa_name_Kalispell MT,0
+categorical__cbsa_name_Kalamazoo-Portage MI,0
+categorical__cbsa_name_Kahului-Wailuku-Lahaina HI,0
+categorical__cbsa_name_Juneau AK,0
+categorical__cbsa_name_Joplin MO,0
+categorical__cbsa_name_Jonesboro AR,0
+categorical__cbsa_name_Johnstown PA,0
+categorical__cbsa_name_Jasper IN,0
+categorical__cbsa_name_Lansing-East Lansing MI,0
+categorical__cbsa_name_Laredo TX,0
+categorical__cbsa_name_Mayag?ez PR,0
+categorical__cbsa_name_Lubbock TX,0
+categorical__cbsa_name_Mason City IA,0
+categorical__cbsa_name_Marshall TX,0
+categorical__cbsa_name_Marshall MN,0
+categorical__cbsa_name_Marion NC,0
+categorical__cbsa_name_Mankato-North Mankato MN,0
+categorical__cbsa_name_Manitowoc WI,0
+categorical__cbsa_name_Manchester-Nashua NH,0
+categorical__cbsa_name_Madison WI,0
+categorical__cbsa_name_Madera CA,0
+categorical__cbsa_name_Macon GA,0
+categorical__cbsa_name_Lynchburg VA,0
+categorical__cbsa_name_Lumberton NC,0
+categorical__cbsa_name_Louisville/Jefferson County KY-IN,0
+categorical__cbsa_name_Las Cruces NM,0
+categorical__cbsa_name_Longview WA,0
+categorical__cbsa_name_Longview TX,0
+categorical__cbsa_name_London KY,0
+categorical__cbsa_name_Lincoln NE,0
+categorical__cbsa_name_Lima OH,0
+categorical__cbsa_name_Lexington-Fayette KY,0
+categorical__cbsa_name_Lewiston ID-WA,0
+categorical__cbsa_name_Lebanon PA,0
+categorical__cbsa_name_Lawton OK,0
+categorical__cbsa_name_Lawrenceburg TN,0
+categorical__cbsa_name_Laurel MS,0
+categorical__cbsa_name_Las Vegas-Henderson-Paradise NV,0
+categorical__cbsa_name_Port Angeles WA,0
+categorical__cbsa_name_Port St. Lucie FL,0
+categorical__cbsa_name_Portsmouth OH,0
+categorical__cbsa_name_The Dalles OR,0
+categorical__cbsa_name_Ukiah CA,0
+categorical__cbsa_name_Twin Falls ID,0
+categorical__cbsa_name_Tuscaloosa AL,0
+categorical__cbsa_name_Tupelo MS,0
+categorical__cbsa_name_Tulsa OK,0
+categorical__cbsa_name_Tucson AZ,0
+categorical__cbsa_name_Truckee-Grass Valley CA,0
+categorical__cbsa_name_Trenton NJ,0
+categorical__cbsa_name_Traverse City MI,0
+categorical__cbsa_name_Torrington CT,0
+categorical__cbsa_name_Topeka KS,0
+categorical__cbsa_name_Toledo OH,0
+categorical__cbsa_name_Texarkana TX-AR,0
+categorical__cbsa_name_Utica-Rome NY,0
+categorical__cbsa_name_Terre Haute IN,0
+categorical__cbsa_name_Tallahassee FL,0
+categorical__cbsa_name_Talladega-Sylacauga AL,0
+categorical__cbsa_name_Tahlequah OK,0
+categorical__cbsa_name_Syracuse NY,0
+categorical__cbsa_name_Stockton-Lodi CA,0
+categorical__cbsa_name_Stillwater OK,0
+categorical__cbsa_name_Steamboat Springs CO,0
+categorical__cbsa_name_State College PA,0
+categorical__cbsa_name_St. Joseph MO-KS,0
+categorical__cbsa_name_St. George UT,0
+categorical__cbsa_name_St. Cloud MN,0
+categorical__cbsa_name_Urban Honolulu HI,0
+categorical__cbsa_name_Valdosta GA,0
+categorical__cbsa_name_Springfield MO,0
+categorical__cbsa_name_Wenatchee WA,0
+categorical__cbsa_name_Yuba City CA,0
+categorical__cbsa_name_York-Hanover PA,0
+categorical__cbsa_name_Yakima WA,0
+categorical__cbsa_name_Worcester MA-CT,0
+categorical__cbsa_name_Wisconsin Rapids-Marshfield WI,0
+categorical__cbsa_name_Winston-Salem NC,0
+categorical__cbsa_name_Winchester VA-WV,0
+categorical__cbsa_name_Wilmington NC,0
+categorical__cbsa_name_Willmar MN,0
+categorical__cbsa_name_Wichita KS,0
+categorical__cbsa_name_Wheeling WV-OH,0
+categorical__cbsa_name_West Plains MO,0
+categorical__cbsa_name_Weirton-Steubenville WV-OH,0
+categorical__cbsa_name_Vallejo-Fairfield CA,0
+categorical__cbsa_name_Weatherford OK,0
+categorical__cbsa_name_Watertown-Fort Atkinson WI,0
+categorical__cbsa_name_Watertown SD,0
+categorical__cbsa_name_Waterloo-Cedar Falls IA,0
+categorical__cbsa_name_Warner Robins GA,0
+categorical__cbsa_name_Walterboro SC,0
+categorical__cbsa_name_Walla Walla WA,0
+categorical__cbsa_name_Waco TX,0
+categorical__cbsa_name_Visalia-Porterville CA,0
+categorical__cbsa_name_Vincennes IN,0
+categorical__cbsa_name_Vicksburg MS,0
+categorical__cbsa_name_Vernal UT,0
+categorical__cbsa_name_Springfield OH,0
+categorical__cbsa_name_Springfield MA,0
+categorical__cbsa_name_Prescott AZ,0
+categorical__cbsa_name_Rochester MN,0
+categorical__cbsa_name_Salem OR,0
+categorical__cbsa_name_Saginaw MI,0
+categorical__cbsa_name_Sacramento--Roseville--Arden-Arcade CA,0
+categorical__cbsa_name_Rutland VT,0
+categorical__cbsa_name_Russellville AR,0
+categorical__cbsa_name_Roswell NM,0
+categorical__cbsa_name_Roseburg OR,0
+categorical__cbsa_name_Rome GA,0
+categorical__cbsa_name_Rocky Mount NC,0
+categorical__cbsa_name_Rockford IL,0
+categorical__cbsa_name_Rock Springs WY,0
+categorical__cbsa_name_Rochester NY,0
+categorical__cbsa_name_Roanoke VA,0
+categorical__cbsa_name_Salisbury MD-DE,0
+categorical__cbsa_name_Riverton WY,0
+categorical__cbsa_name_Richmond-Berea KY,0
+categorical__cbsa_name_Richmond VA,0
+categorical__cbsa_name_Reno NV,0
+categorical__cbsa_name_Redding CA,0
+categorical__cbsa_name_Reading PA,0
+categorical__cbsa_name_Quincy IL-MO,0
+categorical__cbsa_name_Pullman WA,0
+categorical__cbsa_name_Pueblo CO,0
+categorical__cbsa_name_Provo-Orem UT,0
+categorical__cbsa_name_Providence-Warwick RI-MA,0
+categorical__cbsa_name_Prineville OR,0
+categorical__cbsa_name_Salinas CA,0
+categorical__cbsa_name_San Antonio-New Braunfels TX,0
+categorical__cbsa_name_Springfield IL,0
+categorical__cbsa_name_Seattle-Tacoma-Bellevue WA,0
+categorical__cbsa_name_Spokane-Spokane Valley WA,0
+categorical__cbsa_name_Spartanburg SC,0
+categorical__cbsa_name_South Bend-Mishawaka IN-MI,0
+categorical__cbsa_name_Somerset KY,0
+categorical__cbsa_name_Sioux Falls SD,0
+categorical__cbsa_name_Silver City NM,0
+categorical__cbsa_name_Sierra Vista-Douglas AZ,0
+categorical__cbsa_name_Shreveport-Bossier City LA,0
+categorical__cbsa_name_Sheridan WY,0
+categorical__cbsa_name_Shelton WA,0
+categorical__cbsa_name_Shawnee OK,0
+categorical__cbsa_name_Seneca SC,0
+categorical__cbsa_name_Searcy AR,0
+categorical__cbsa_name_San Diego-Carlsbad CA,0
+categorical__cbsa_name_Scranton--Wilkes-Barre--Hazleton PA,0
+categorical__cbsa_name_Scottsbluff NE,0
+categorical__cbsa_name_Savannah GA,0
+categorical__cbsa_name_Sault Ste. Marie MI,0
+categorical__cbsa_name_Santa Rosa CA,0
+categorical__cbsa_name_Santa Maria-Santa Barbara CA,0
+categorical__cbsa_name_Santa Fe NM,0
+categorical__cbsa_name_Santa Cruz-Watsonville CA,0
+categorical__cbsa_name_Sandpoint ID,0
+categorical__cbsa_name_San Luis Obispo-Paso Robles-Arroyo Grande CA,0
+categorical__cbsa_name_San Juan-Carolina-Caguas PR,0
+categorical__cbsa_name_San Jose-Sunnyvale-Santa Clara CA,0
+categorical__cbsa_name_Janesville-Beloit WI,0
+categorical__cbsa_name_Jacksonville NC,0
+categorical__city_name_Washington,0
+categorical__cbsa_name_Jacksonville FL,0
+categorical__cbsa_name_Bend-Redmond OR,0
+categorical__cbsa_name_Bellingham WA,0
+categorical__cbsa_name_Beckley WV,0
+categorical__cbsa_name_Beaver Dam WI,0
+categorical__cbsa_name_Beaumont-Port Arthur TX,0
+categorical__city_name_Keokuk,0
+categorical__cbsa_name_Baton Rouge LA,0
+categorical__cbsa_name_Barre VT,0
+categorical__cbsa_name_Baraboo WI,0
+categorical__cbsa_name_Bakersfield CA,0
+categorical__cbsa_name_Austin-Round Rock TX,0
+categorical__cbsa_name_Augusta-Richmond County GA-SC,0
+categorical__cbsa_name_Atlantic City-Hammonton NJ,0
+categorical__cbsa_name_Athens-Clarke County GA,0
+categorical__cbsa_name_Athens TN,0
+categorical__cbsa_name_Athens OH,0
+categorical__cbsa_name_Asheville NC,0
+categorical__cbsa_name_Ardmore OK,0
+categorical__cbsa_name_Appleton WI,0
+categorical__cbsa_name_Ann Arbor MI,0
+categorical__cbsa_name_Ames IA,0
+categorical__cbsa_name_Amarillo TX,0
+categorical__cbsa_name_Altoona PA,0
+categorical__cbsa_name_Alpena MI,0
+categorical__cbsa_name_Alexandria MN,0
+categorical__cbsa_name_Alexandria LA,0
+categorical__cbsa_name_Albuquerque NM,0
+categorical__cbsa_name_Bennington VT,0
+categorical__cbsa_name_Berlin NH-VT,0
+categorical__cbsa_name_Billings MT,0
+categorical__cbsa_name_Bridgeport-Stamford-Norwalk CT,0
+categorical__cbsa_name_Cedar Rapids IA,0
+categorical__cbsa_name_Casper WY,0
+categorical__cbsa_name_Cape Coral-Fort Myers FL,0
+categorical__cbsa_name_Canton-Massillon OH,0
+categorical__cbsa_name_Cambridge MD,0
+categorical__cbsa_name_Cadillac MI,0
+categorical__cbsa_name_Butte-Silver Bow MT,0
+categorical__cbsa_name_Burlington-South Burlington VT,0
+categorical__cbsa_name_Burlington NC,0
+categorical__cbsa_name_Brunswick GA,0
+categorical__cbsa_name_Brownsville-Harlingen TX,0
+categorical__cbsa_name_Brookings SD,0
+categorical__cbsa_name_Bremerton-Silverdale WA,0
+categorical__cbsa_name_Binghamton NY,0
+categorical__cbsa_name_Brainerd MN,0
+categorical__cbsa_name_Bozeman MT,0
+categorical__cbsa_name_Bowling Green KY,0
+categorical__cbsa_name_Boulder CO,0
+categorical__cbsa_name_Boone NC,0
+categorical__cbsa_name_Blytheville AR,0
+categorical__cbsa_name_Bluefield WV-VA,0
+categorical__cbsa_name_Bloomington IN,0
+categorical__cbsa_name_Bloomington IL,0
+categorical__cbsa_name_Bismarck ND,0
+categorical__cbsa_name_Bishop CA,0
+categorical__cbsa_name_Birmingham-Hoover AL,0
+categorical__cbsa_name_Albert Lea MN,0
+categorical__cbsa_name_Albany-Schenectady-Troy NY,0
+categorical__cbsa_name_Albany OR,0
+categorical__city_name_Wenatchee,0
+categorical__city_name_White Settlement,0
+categorical__city_name_Wheeling,0
+categorical__city_name_Wewoka,0
+categorical__city_name_Westport,0
+categorical__city_name_Westfield,0
+categorical__city_name_West Yellowstone,0
+categorical__city_name_West Wenatchee,0
+categorical__city_name_West Valley,0
+categorical__city_name_West Orange,0
+categorical__city_name_West Memphis,0
+categorical__city_name_West Haven,0
+categorical__city_name_West Alton,0
+categorical__city_name_Weirton,0
+categorical__city_name_Whitefish,0
+categorical__city_name_Weeping Water,0
+categorical__city_name_Weaverville,0
+categorical__city_name_Waynesville,0
+categorical__city_name_Waverly,0
+categorical__city_name_Waveland,0
+categorical__city_name_Waupaca,0
+categorical__city_name_Waukesha,0
+categorical__city_name_Watertown,0
+categorical__city_name_Waterloo,0
+categorical__city_name_Waterbury,0
+categorical__city_name_Wasilla,0
+categorical__city_name_Washington Terrace,0
+categorical__city_name_White Swan,0
+categorical__city_name_Wichita,0
+categorical__cbsa_name_Albany GA,0
+categorical__city_name_York,0
+categorical__cbsa_name_Aguadilla-Isabela PR,0
+categorical__cbsa_name_Adrian MI,0
+categorical__cbsa_name_Adjuntas PR,0
+categorical__cbsa_name_Aberdeen WA,0
+categorical__cbsa_name_Aberdeen SD,0
+categorical__city_name_Zion,0
+categorical__city_name_Zia Pueblo,0
+categorical__city_name_Yuma,0
+categorical__city_name_Yuba City,0
+categorical__city_name_Yreka,0
+categorical__city_name_Ypsilanti,0
+categorical__city_name_Youngstown,0
+categorical__city_name_Yellow Springs,0
+categorical__city_name_Wilkes-Barre,0
+categorical__city_name_Yakima,0
+categorical__city_name_Yacolt,0
+categorical__city_name_Wyandotte,0
+categorical__city_name_Worcester,0
+categorical__city_name_Woodland,0
+categorical__city_name_Wood River,0
+categorical__city_name_Wisconsin Rapids,0
+categorical__city_name_Winter Park,0
+categorical__city_name_Winston-Salem,0
+categorical__city_name_Wilmington,0
+categorical__city_name_Willmar,0
+categorical__city_name_Willits,0
+categorical__cbsa_name_Centralia WA,0
+categorical__cbsa_name_Champaign-Urbana IL,0
+categorical__cbsa_name_Charleston WV,0
+categorical__cbsa_name_Gettysburg PA,0
+categorical__cbsa_name_Greenville NC,0
+categorical__cbsa_name_Greensboro-High Point NC,0
+categorical__cbsa_name_Green Bay WI,0
+categorical__cbsa_name_Greeley CO,0
+categorical__cbsa_name_Great Falls MT,0
+categorical__cbsa_name_Grants Pass OR,0
+categorical__cbsa_name_Grand Rapids-Wyoming MI,0
+categorical__cbsa_name_Grand Junction CO,0
+categorical__cbsa_name_Grand Island NE,0
+categorical__cbsa_name_Grand Forks ND-MN,0
+categorical__cbsa_name_Goldsboro NC,0
+categorical__cbsa_name_Glenwood Springs CO,0
+categorical__cbsa_name_Georgetown SC,0
+categorical__cbsa_name_Greenwood SC,0
+categorical__cbsa_name_Gardnerville Ranchos NV,0
+categorical__cbsa_name_Gainesville GA,0
+categorical__cbsa_name_Gainesville FL,0
+categorical__cbsa_name_Gadsden AL,0
+categorical__cbsa_name_Fresno CA,0
+categorical__cbsa_name_Frankfort KY,0
+categorical__cbsa_name_Fort Wayne IN,0
+categorical__cbsa_name_Fort Smith AR-OK,0
+categorical__cbsa_name_Fort Payne AL,0
+categorical__cbsa_name_Fort Madison-Keokuk IA-IL-MO,0
+categorical__cbsa_name_Fort Collins CO,0
+categorical__cbsa_name_Florence-Muscle Shoals AL,0
+categorical__cbsa_name_Greenville-Anderson-Mauldin SC,0
+categorical__cbsa_name_Grenada MS,0
+categorical__cbsa_name_Flint MI,0
+categorical__cbsa_name_Holland MI,0
+categorical__cbsa_name_Jackson WY-ID,0
+categorical__cbsa_name_Jackson TN,0
+categorical__cbsa_name_Jackson MS,0
+categorical__cbsa_name_Iron Mountain MI-WI,0
+categorical__cbsa_name_Iowa City IA,0
+categorical__cbsa_name_Idaho Falls ID,0
+categorical__cbsa_name_Hutchinson MN,0
+categorical__cbsa_name_Huntsville AL,0
+categorical__cbsa_name_Houston-The Woodlands-Sugar Land TX,0
+categorical__cbsa_name_Houma-Thibodaux LA,0
+categorical__cbsa_name_Hot Springs AR,0
+categorical__cbsa_name_Homosassa Springs FL,0
+categorical__cbsa_name_Hobbs NM,0
+categorical__cbsa_name_Guayama PR,0
+categorical__cbsa_name_Hilton Head Island-Bluffton-Beaufort SC,0
+categorical__cbsa_name_Hilo HI,0
+categorical__cbsa_name_Hickory-Lenoir-Morganton NC,0
+categorical__cbsa_name_Hermiston-Pendleton OR,0
+categorical__cbsa_name_Helena-West Helena AR,0
+categorical__cbsa_name_Helena MT,0
+categorical__cbsa_name_Hattiesburg MS,0
+categorical__cbsa_name_Hartford-West Hartford-East Hartford CT,0
+categorical__cbsa_name_Harrisonburg VA,0
+categorical__cbsa_name_Hanford-Corcoran CA,0
+categorical__cbsa_name_Hammond LA,0
+categorical__cbsa_name_Hagerstown-Martinsburg MD-WV,0
+categorical__cbsa_name_Florence SC,0
+categorical__cbsa_name_Flagstaff AZ,0
+categorical__cbsa_name_Charleston-North Charleston SC,0
+categorical__cbsa_name_Columbus GA-AL,0
+categorical__cbsa_name_Decatur AL,0
+categorical__cbsa_name_Davenport-Moline-Rock Island IA-IL,0
+categorical__cbsa_name_Daphne-Fairhope-Foley AL,0
+categorical__cbsa_name_Dallas-Fort Worth-Arlington TX,0
+categorical__cbsa_name_Cullowhee NC,0
+categorical__cbsa_name_Corvallis OR,0
+categorical__cbsa_name_Corpus Christi TX,0
+categorical__cbsa_name_Corning NY,0
+categorical__cbsa_name_Cookeville TN,0
+categorical__cbsa_name_Concord NH,0
+categorical__cbsa_name_Columbus OH,0
+categorical__cbsa_name_Columbus MS,0
+categorical__cbsa_name_Columbia MO,0
+categorical__cbsa_name_Deltona-Daytona Beach-Ormond Beach FL,0
+categorical__cbsa_name_Colorado Springs CO,0
+categorical__cbsa_name_Coeur d'Alene ID,0
+categorical__cbsa_name_Clinton IA,0
+categorical__cbsa_name_Cleveland MS,0
+categorical__cbsa_name_Clearlake CA,0
+categorical__cbsa_name_Clarksburg WV,0
+categorical__cbsa_name_Claremont-Lebanon NH-VT,0
+categorical__cbsa_name_Chico CA,0
+categorical__cbsa_name_Cheyenne WY,0
+categorical__cbsa_name_Chattanooga TN-GA,0
+categorical__cbsa_name_Charlottesville VA,0
+categorical__cbsa_name_Charlotte-Concord-Gastonia NC-SC,0
+categorical__cbsa_name_Decatur IL,0
+categorical__cbsa_name_Des Moines-West Des Moines IA,0
+categorical__cbsa_name_Fergus Falls MN,0
+categorical__cbsa_name_Elkhart-Goshen IN,0
+categorical__cbsa_name_Fayetteville-Springdale-Rogers AR-MO,0
+categorical__cbsa_name_Fayetteville NC,0
+categorical__cbsa_name_Farmington NM,0
+categorical__cbsa_name_Fargo ND-MN,0
+categorical__cbsa_name_Fairmont WV,0
+categorical__cbsa_name_Fairbanks AK,0
+categorical__cbsa_name_Evansville IN-KY,0
+categorical__cbsa_name_Eureka-Arcata-Fortuna CA,0
+categorical__cbsa_name_Eugene OR,0
+categorical__cbsa_name_Erie PA,0
+categorical__cbsa_name_Enid OK,0
+categorical__cbsa_name_Ellensburg WA,0
+categorical__cbsa_name_Elizabethtown-Fort Knox KY,0
+categorical__cbsa_name_Dickinson ND,0
+categorical__cbsa_name_Elizabeth City NC,0
+categorical__cbsa_name_El Paso TX,0
+categorical__cbsa_name_El Dorado AR,0
+categorical__cbsa_name_El Centro CA,0
+categorical__cbsa_name_Eau Claire WI,0
+categorical__cbsa_name_East Stroudsburg PA,0
+categorical__cbsa_name_Dyersburg TN,0
+categorical__cbsa_name_Durham-Chapel Hill NC,0
+categorical__cbsa_name_Durango CO,0
+categorical__cbsa_name_Duluth MN-WI,0
+categorical__cbsa_name_Dover DE,0
+categorical__cbsa_name_Dothan AL,0
+categorical__city_name_Ketchikan,0
+categorical__city_name_Greeley,0
+categorical__city_name_Kent,0
+categorical__county_name_Mayes,0
+categorical__county_name_Maury,0
+categorical__county_name_Maui,0
+categorical__county_name_Mason,0
+categorical__county_name_Martin,0
+categorical__county_name_Marshall,0
+categorical__county_name_Marin,0
+categorical__county_name_Maries,0
+categorical__county_name_Manitowoc,0
+categorical__county_name_Manistee,0
+categorical__county_name_Manatee,0
+categorical__county_name_Mahoning,0
+categorical__county_name_Madison,0
+categorical__county_name_Madera,0
+categorical__county_name_Macon,0
+categorical__county_name_Macomb,0
+categorical__county_name_Lyon,0
+categorical__county_name_Lynchburg City,0
+categorical__county_name_Luzerne,0
+categorical__county_name_Lubbock,0
+categorical__county_name_Lowndes,0
+categorical__county_name_Loudoun,0
+categorical__county_name_Loudon,0
+categorical__county_name_Los Angeles,0
+categorical__county_name_Lorain,0
+categorical__county_name_Litchfield,0
+categorical__county_name_Lincoln,0
+categorical__county_name_Lexington,0
+categorical__county_name_Mayagnez,0
+categorical__county_name_McCracken,0
+categorical__county_name_Leon,0
+categorical__county_name_McDowell,0
+categorical__county_name_Monterey,0
+categorical__county_name_Monroe,0
+categorical__county_name_Monongalia,0
+categorical__county_name_Mono,0
+categorical__county_name_Mohave,0
+categorical__county_name_Modoc,0
+categorical__county_name_Mitchell,0
+categorical__county_name_Mississippi,0
+categorical__county_name_Missaukee,0
+categorical__county_name_Minnehaha,0
+categorical__county_name_Miller,0
+categorical__county_name_Mille Lacs,0
+categorical__county_name_Middlesex,0
+categorical__county_name_Mesa,0
+categorical__county_name_Merrimack,0
+categorical__county_name_Mercer,0
+categorical__county_name_Merced,0
+categorical__county_name_Mendocino,0
+categorical__county_name_Medina,0
+categorical__county_name_Mecklenburg,0
+categorical__county_name_Meade,0
+categorical__county_name_McMinn,0
+categorical__county_name_McLeod,0
+categorical__county_name_McLennan,0
+categorical__county_name_McLean,0
+categorical__county_name_McKenzie,0
+categorical__county_name_McHenry,0
+categorical__county_name_Lewis,0
+categorical__county_name_Lenoir,0
+categorical__county_name_Henderson,0
+categorical__county_name_Kaufman,0
+categorical__county_name_Kane,0
+categorical__county_name_Kandiyohi,0
+categorical__county_name_Kalamazoo,0
+categorical__county_name_Juneau,0
+categorical__county_name_Josephine,0
+categorical__county_name_Jones,0
+categorical__county_name_Johnston,0
+categorical__county_name_Johnson,0
+categorical__county_name_Jersey,0
+categorical__county_name_Jeff Davis,0
+categorical__county_name_Jasper,0
+categorical__county_name_Jackson,0
+categorical__county_name_Itasca,0
+categorical__county_name_Iron,0
+categorical__county_name_Inyo,0
+categorical__county_name_Ingham,0
+categorical__county_name_Idaho,0
+categorical__county_name_Iberville,0
+categorical__county_name_Humacao,0
+categorical__county_name_Howell,0
+categorical__county_name_Howard,0
+categorical__county_name_Horry,0
+categorical__county_name_Honolulu,0
+categorical__county_name_Hinds,0
+categorical__county_name_Hidalgo,0
+categorical__county_name_Henry,0
+categorical__county_name_Henrico,0
+categorical__county_name_Kauai,0
+categorical__county_name_Kay,0
+categorical__county_name_Lenawee,0
+categorical__county_name_Kenai Peninsula,0
+categorical__county_name_Lemhi,0
+categorical__county_name_Lehigh,0
+categorical__county_name_Lee,0
+categorical__county_name_Lebanon,0
+categorical__county_name_Lea,0
+categorical__county_name_Lawrence,0
+categorical__county_name_Laurel,0
+categorical__county_name_Lauderdale,0
+categorical__county_name_Latah,0
+categorical__county_name_Larimer,0
+categorical__county_name_Lares,0
+categorical__county_name_Laramie,0
+categorical__county_name_Lafayette,0
+categorical__county_name_Lackawanna,0
+categorical__county_name_LaPorte,0
+categorical__county_name_La Salle,0
+categorical__county_name_La Plata,0
+categorical__county_name_La Crosse,0
+categorical__county_name_Kootenai,0
+categorical__county_name_Knox,0
+categorical__county_name_Kleberg,0
+categorical__county_name_Klamath,0
+categorical__county_name_Kittitas,0
+categorical__county_name_Kitsap,0
+categorical__county_name_Ketchikan Gateway,0
+categorical__county_name_Kenton,0
+categorical__county_name_Kenosha,0
+categorical__county_name_Montezuma,0
+categorical__county_name_Morgan,0
+categorical__county_name_Morris,0
+categorical__county_name_Saint Charles,0
+categorical__county_name_Sacramento,0
+categorical__county_name_Rutland,0
+categorical__county_name_Russell,0
+categorical__county_name_Rowan,0
+categorical__county_name_Routt,0
+categorical__county_name_Rosebud,0
+categorical__county_name_Rockingham,0
+categorical__county_name_Rock Island,0
+categorical__county_name_Rock,0
+categorical__county_name_Robeson,0
+categorical__county_name_Roanoke City,0
+categorical__county_name_Riverside,0
+categorical__county_name_Rio Blanco,0
+categorical__county_name_Richmond City,0
+categorical__county_name_Richmond,0
+categorical__county_name_Ravalli,0
+categorical__county_name_Rapides,0
+categorical__county_name_Rankin,0
+categorical__county_name_Randolph,0
+categorical__county_name_Raleigh,0
+categorical__county_name_Queens,0
+categorical__county_name_Putnam,0
+categorical__county_name_Pueblo,0
+categorical__county_name_Prince George's,0
+categorical__county_name_Preble,0
+categorical__county_name_Power,0
+categorical__county_name_Powder River,0
+categorical__county_name_Saginaw,0
+categorical__county_name_Sainte Genevieve,0
+categorical__county_name_Muskegon,0
+categorical__county_name_Salem City,0
+categorical__county_name_Sheridan,0
+categorical__county_name_Shelby,0
+categorical__county_name_Shawnee,0
+categorical__county_name_Sequoyah,0
+categorical__county_name_Seminole,0
+categorical__county_name_Sedgwick,0
+categorical__county_name_Sebastian,0
+categorical__county_name_Scotts Bluff,0
+categorical__county_name_Scioto,0
+categorical__county_name_Schenectady,0
+categorical__county_name_Sauk,0
+categorical__county_name_Saskatchewan,0
+categorical__county_name_Sarpy,0
+categorical__county_name_Sarasota,0
+categorical__county_name_Santa Rosa,0
+categorical__county_name_Santa Fe,0
+categorical__county_name_Santa Clara,0
+categorical__county_name_Santa Barbara,0
+categorical__county_name_Sangamon,0
+categorical__county_name_Sanders,0
+categorical__county_name_San Miguel,0
+categorical__county_name_San Mateo,0
+categorical__county_name_San Luis Obispo,0
+categorical__county_name_San Juan,0
+categorical__county_name_San Joaquin,0
+categorical__county_name_San Francisco,0
+categorical__county_name_San Benito,0
+categorical__county_name_Potter,0
+categorical__county_name_Pottawattamie,0
+categorical__county_name_Pottawatomie,0
+categorical__county_name_Portage,0
+categorical__county_name_Orangeburg,0
+categorical__county_name_Orange,0
+categorical__county_name_Onslow,0
+categorical__county_name_Oneida,0
+categorical__county_name_Olmsted,0
+categorical__county_name_Oliver,0
+categorical__county_name_Okanogan,0
+categorical__county_name_Ohio,0
+categorical__county_name_Oconee,0
+categorical__county_name_Ocean,0
+categorical__county_name_Oakland,0
+categorical__county_name_Nueces,0
+categorical__county_name_Northampton,0
+categorical__county_name_Norfolk City,0
+categorical__county_name_Norfolk,0
+categorical__county_name_Nicollet,0
+categorical__county_name_Niagara,0
+categorical__county_name_Nez Perce,0
+categorical__county_name_Newport News City,0
+categorical__county_name_New York,0
+categorical__county_name_New London,0
+categorical__county_name_New Haven,0
+categorical__county_name_New Hanover,0
+categorical__county_name_Natrona,0
+categorical__county_name_Nassau,0
+categorical__county_name_Napa,0
+categorical__county_name_Muskogee,0
+categorical__county_name_Orleans,0
+categorical__county_name_Ottawa,0
+categorical__county_name_Otter Tail,0
+categorical__county_name_Perry,0
+categorical__county_name_Pope,0
+categorical__county_name_Ponce,0
+categorical__county_name_Polk,0
+categorical__county_name_Plymouth,0
+categorical__county_name_Placer,0
+categorical__county_name_Pittsburg,0
+categorical__county_name_Pitt,0
+categorical__county_name_Pinal,0
+categorical__county_name_Pima,0
+categorical__county_name_Pike,0
+categorical__county_name_Phillips,0
+categorical__county_name_Philadelphia,0
+categorical__county_name_Peoria,0
+categorical__county_name_Ouachita,0
+categorical__county_name_Pennington,0
+categorical__county_name_Pearl River,0
+categorical__county_name_Payne,0
+categorical__county_name_Pawnee,0
+categorical__county_name_Paulding,0
+categorical__county_name_Passaic,0
+categorical__county_name_Pasquotank,0
+categorical__county_name_Park,0
+categorical__county_name_Palo Alto,0
+categorical__county_name_Page,0
+categorical__county_name_Ozaukee,0
+categorical__county_name_Outagamie,0
+categorical__county_name_Hennepin,0
+categorical__county_name_Haywood,0
+categorical__city_name_Kennewick,0
+categorical__county_name_Cache,0
+categorical__county_name_Cabarrus,0
+categorical__county_name_Butte,0
+categorical__county_name_Butler,0
+categorical__county_name_Burleigh,0
+categorical__county_name_Burke,0
+categorical__county_name_Buncombe,0
+categorical__county_name_Bullitt,0
+categorical__county_name_Bucks,0
+categorical__county_name_Buchanan,0
+categorical__county_name_Brown,0
+categorical__county_name_Broward,0
+categorical__county_name_Broome,0
+categorical__county_name_Brookings,0
+categorical__county_name_Bronx,0
+categorical__county_name_Bristol City,0
+categorical__county_name_Bristol,0
+categorical__county_name_Brewster,0
+categorical__county_name_Brevard,0
+categorical__county_name_Bremer,0
+categorical__county_name_Brazoria,0
+categorical__county_name_Boyd,0
+categorical__county_name_Box Elder,0
+categorical__county_name_Bowie,0
+categorical__county_name_Boundary,0
+categorical__county_name_Boulder,0
+categorical__county_name_Boone,0
+categorical__county_name_Bonneville,0
+categorical__county_name_Cabell,0
+categorical__county_name_Caddo,0
+categorical__county_name_Bolivar,0
+categorical__county_name_Calaveras,0
+categorical__county_name_Chesapeake City,0
+categorical__county_name_Cherry,0
+categorical__county_name_Cherokee,0
+categorical__county_name_Chelan,0
+categorical__county_name_Chaves,0
+categorical__county_name_Chautauqua,0
+categorical__county_name_Chatham,0
+categorical__county_name_Charleston,0
+categorical__county_name_Charles,0
+categorical__county_name_Champaign,0
+categorical__county_name_Cerro Gordo,0
+categorical__county_name_Centre,0
+categorical__county_name_Cedar,0
+categorical__county_name_Cecil,0
+categorical__county_name_Catawba,0
+categorical__county_name_Caswell,0
+categorical__county_name_Cass,0
+categorical__county_name_Cascade,0
+categorical__county_name_Carter,0
+categorical__county_name_Caribou,0
+categorical__county_name_Canyon,0
+categorical__county_name_Canadian,0
+categorical__county_name_Cameron,0
+categorical__county_name_Camden,0
+categorical__county_name_Cambria,0
+categorical__county_name_Caldwell,0
+categorical__county_name_Calcasieu,0
+categorical__county_name_Bonner,0
+categorical__county_name_Boise,0
+categorical__county_name_Hartford,0
+categorical__county_name_Arlington,0
+categorical__county_name_Archuleta,0
+categorical__county_name_Arapahoe,0
+categorical__county_name_Apache,0
+categorical__county_name_Anoka,0
+categorical__county_name_Anchorage,0
+categorical__county_name_Alpena,0
+categorical__county_name_Allen,0
+categorical__county_name_Allegan,0
+categorical__county_name_Alexandria City,0
+categorical__county_name_Albemarle,0
+categorical__county_name_Albany,0
+categorical__county_name_Alameda,0
+categorical__county_name_Alamance,0
+categorical__county_name_Alachua,0
+categorical__county_name_Aiken,0
+categorical__county_name_Adjuntas,0
+categorical__county_name_Addison,0
+categorical__county_name_Adair,0
+categorical__county_name_Ada,0
+categorical__state_name_West Virginia,0
+categorical__state_name_Virgin Islands,0
+categorical__state_name_Vermont,0
+categorical__state_name_Rhode Island,0
+categorical__state_name_Maine,0
+categorical__state_name_District Of Columbia,0
+categorical__state_name_Canada,0
+categorical__state_name_Alaska,0
+categorical__county_name_Arkansas,0
+categorical__county_name_Armstrong,0
+categorical__county_name_Blount,0
+categorical__county_name_Aroostook,0
+categorical__county_name_Blair,0
+categorical__county_name_Black Hawk,0
+categorical__county_name_Billings,0
+categorical__county_name_Bibb,0
+categorical__county_name_Berrien,0
+categorical__county_name_Bernalillo,0
+categorical__county_name_Berkshire,0
+categorical__county_name_Berks,0
+categorical__county_name_Berkeley,0
+categorical__county_name_Bergen,0
+categorical__county_name_Benton,0
+categorical__county_name_Bennington,0
+categorical__county_name_Benewah,0
+categorical__county_name_Bell,0
+categorical__county_name_Belknap,0
+categorical__county_name_Beaver,0
+categorical__county_name_Beaufort,0
+categorical__county_name_Bayamon,0
+categorical__county_name_Bay,0
+categorical__county_name_Baltimore (City),0
+categorical__county_name_Baltimore,0
+categorical__county_name_Baldwin,0
+categorical__county_name_Atlantic,0
+categorical__county_name_Athens,0
+categorical__county_name_Asotin,0
+categorical__county_name_Ashley,0
+categorical__county_name_Ashland,0
+categorical__county_name_Cheshire,0
+categorical__county_name_Chester,0
+categorical__county_name_Chesterfield,0
+categorical__county_name_Gaston,0
+categorical__county_name_Garland,0
+categorical__county_name_Garfield,0
+categorical__county_name_Galveston,0
+categorical__county_name_Gallatin,0
+categorical__county_name_Fremont,0
+categorical__county_name_Freeborn,0
+categorical__county_name_Frederick,0
+categorical__county_name_Forsyth,0
+categorical__county_name_Forrest,0
+categorical__county_name_Forest,0
+categorical__county_name_Florence,0
+categorical__county_name_Fergus,0
+categorical__county_name_Fayette,0
+categorical__county_name_Faulkner,0
+categorical__county_name_Fajardo,0
+categorical__county_name_Fairfax,0
+categorical__county_name_Etowah,0
+categorical__county_name_Essex,0
+categorical__county_name_Escambia,0
+categorical__county_name_Erie,0
+categorical__county_name_Emmet,0
+categorical__county_name_Ellis,0
+categorical__county_name_Elkhart,0
+categorical__county_name_Elbert,0
+categorical__county_name_El Dorado,0
+categorical__county_name_Edmonson,0
+categorical__county_name_Edgefield,0
+categorical__county_name_Garrett,0
+categorical__county_name_Gem,0
+categorical__county_name_Chittenden,0
+categorical__county_name_Genesee,0
+categorical__county_name_Harris,0
+categorical__county_name_Harney,0
+categorical__county_name_Harford,0
+categorical__county_name_Hardin,0
+categorical__county_name_Hampton City,0
+categorical__county_name_Hampshire,0
+categorical__county_name_Hall,0
+categorical__county_name_Gwinnett,0
+categorical__county_name_Gunnison,0
+categorical__county_name_Guilford,0
+categorical__county_name_Guaynabo,0
+categorical__county_name_Guayanilla,0
+categorical__county_name_Guayama,0
+categorical__county_name_Grenada,0
+categorical__county_name_Gregg,0
+categorical__county_name_Greenwood,0
+categorical__county_name_Greenville,0
+categorical__county_name_Greene,0
+categorical__county_name_Grays Harbor,0
+categorical__county_name_Grand Traverse,0
+categorical__county_name_Grand Forks,0
+categorical__county_name_Grafton,0
+categorical__county_name_Glynn,0
+categorical__county_name_Gloucester,0
+categorical__county_name_Gila,0
+categorical__county_name_Gibson,0
+categorical__county_name_Georgetown,0
+categorical__county_name_Edgecombe,0
+categorical__county_name_Ector,0
+categorical__county_name_Eau Claire,0
+categorical__county_name_East Baton Rouge,0
+categorical__county_name_Crow Wing,0
+categorical__county_name_Crook,0
+categorical__county_name_Crittenden,0
+categorical__county_name_Craighead,0
+categorical__county_name_Cowlitz,0
+categorical__county_name_Coos,0
+categorical__county_name_Converse,0
+categorical__county_name_Contra Costa,0
+categorical__county_name_Concordia,0
+categorical__county_name_Comanche,0
+categorical__county_name_Colusa,0
+categorical__county_name_Columbia,0
+categorical__county_name_Collin,0
+categorical__county_name_Colleton,0
+categorical__county_name_Colbert,0
+categorical__county_name_Codington,0
+categorical__county_name_Coconino,0
+categorical__county_name_Cochise,0
+categorical__county_name_Cobb,0
+categorical__county_name_Clinton,0
+categorical__county_name_Clermont,0
+categorical__county_name_Clayton,0
+categorical__county_name_Clay,0
+categorical__county_name_Clarke,0
+categorical__county_name_Clallam,0
+categorical__county_name_Citrus,0
+categorical__county_name_Christian,0
+categorical__county_name_Cumberland,0
+categorical__county_name_Custer,0
+categorical__county_name_Cuyahoga,0
+categorical__county_name_District of Columbia,0
+categorical__county_name_Dyer,0
+categorical__county_name_Duval,0
+categorical__county_name_Dutchess,0
+categorical__county_name_Durham,0
+categorical__county_name_Duplin,0
+categorical__county_name_Dunn,0
+categorical__county_name_Dubois,0
+categorical__county_name_DuPage,0
+categorical__county_name_Dougherty,0
+categorical__county_name_Dorchester,0
+categorical__county_name_Door,0
+categorical__county_name_Dodge,0
+categorical__county_name_Dickinson,0
+categorical__county_name_Dakota,0
+categorical__county_name_Deuel,0
+categorical__county_name_Deschutes,0
+categorical__county_name_Denver,0
+categorical__county_name_Denali,0
+categorical__county_name_Delta,0
+categorical__county_name_Delaware,0
+categorical__county_name_DeSoto,0
+categorical__county_name_Davis,0
+categorical__county_name_Daviess,0
+categorical__county_name_Dauphin,0
+categorical__county_name_Dane,0
+categorical__county_name_Dallas,0
+categorical__county_name_Shoshone,0
+categorical__county_name_Silver Bow,0
+categorical__county_name_Siskiyou,0
+categorical__city_name_Elkhart,0
+categorical__city_name_Elizabeth City,0
+categorical__city_name_Elizabeth,0
+categorical__city_name_Elgin,0
+categorical__city_name_El Dorado,0
+categorical__city_name_El Centro,0
+categorical__city_name_El Cajon,0
+categorical__city_name_Edinburg,0
+categorical__city_name_Edgewood,0
+categorical__city_name_East Syracuse,0
+categorical__city_name_East Saint Louis,0
+categorical__city_name_East Ridge,0
+categorical__city_name_East Providence,0
+categorical__city_name_East Point,0
+categorical__city_name_East Highland Park,0
+categorical__city_name_East Hartford,0
+categorical__city_name_East Farmingdale,0
+categorical__city_name_East Chicago,0
+categorical__city_name_Dyersburg,0
+categorical__city_name_Durham,0
+categorical__city_name_Durango,0
+categorical__city_name_Dunedin,0
+categorical__city_name_Dune Acres,0
+categorical__city_name_Duluth,0
+categorical__city_name_Dover,0
+categorical__city_name_Douglas,0
+categorical__city_name_Dothan,0
+categorical__city_name_Doraville,0
+categorical__city_name_Elizabethtown,0
+categorical__city_name_Ellensburg,0
+categorical__city_name_Detroit,0
+categorical__city_name_Emmetsburg,0
+categorical__city_name_Fontana,0
+categorical__city_name_Follansbee,0
+categorical__city_name_Florence,0
+categorical__city_name_Flint,0
+categorical__city_name_Flagstaff,0
+categorical__city_name_Fitchburg,0
+categorical__city_name_Ferry Pass,0
+categorical__city_name_Ferguson,0
+categorical__city_name_Fayetteville,0
+categorical__city_name_Farrell,0
+categorical__city_name_Farmington,0
+categorical__city_name_Fall River,0
+categorical__city_name_Fairport Harbor (Fairport),0
+categorical__city_name_Fairmont,0
+categorical__city_name_Fairhope,0
+categorical__city_name_Fairfield,0
+categorical__city_name_Fairbanks,0
+categorical__city_name_Evansville,0
+categorical__city_name_Eureka,0
+categorical__city_name_Eugene,0
+categorical__city_name_Estherville,0
+categorical__city_name_Essex,0
+categorical__city_name_Escondido,0
+categorical__city_name_Erie,0
+categorical__city_name_Enumclaw,0
+categorical__city_name_Enid,0
+categorical__city_name_Emmett,0
+categorical__city_name_Dickinson,0
+categorical__city_name_Des Plaines,0
+categorical__county_name_Skagit,0
+categorical__city_name_Cookeville,0
+categorical__city_name_Conroe,0
+categorical__city_name_Concord,0
+categorical__city_name_Compton,0
+categorical__city_name_Commerce City,0
+categorical__city_name_Colville,0
+categorical__city_name_Colusa,0
+categorical__city_name_Columbus (Remainder),0
+categorical__city_name_Columbia Falls,0
+categorical__city_name_Columbia,0
+categorical__city_name_Colorado Springs,0
+categorical__city_name_Coloma,0
+categorical__city_name_College,0
+categorical__city_name_Colfax,0
+categorical__city_name_Coeur d'Alene,0
+categorical__city_name_Cody,0
+categorical__city_name_Coconut Creek,0
+categorical__city_name_Cockeysville,0
+categorical__city_name_Clute (corporate name for Clute City),0
+categorical__city_name_Clovis,0
+categorical__city_name_Clive,0
+categorical__city_name_Clinton,0
+categorical__city_name_Cleves,0
+categorical__city_name_Cleveland,0
+categorical__city_name_Clearwater,0
+categorical__city_name_Clarksville,0
+categorical__city_name_Clarkston,0
+categorical__city_name_Clarksburg,0
+categorical__city_name_Conway,0
+categorical__city_name_Coraopolis,0
+categorical__city_name_Des Moines,0
+categorical__city_name_Corcoran,0
+categorical__city_name_Denver,0
+categorical__city_name_Dentsville (Dents),0
+categorical__city_name_Delta,0
+categorical__city_name_Delray Beach,0
+categorical__city_name_Deer Park,0
+categorical__city_name_Decatur,0
+categorical__city_name_Dearborn,0
+categorical__city_name_De Pere,0
+categorical__city_name_Daytona Beach,0
+categorical__city_name_Davie,0
+categorical__city_name_Davenport,0
+categorical__city_name_Darrington,0
+categorical__city_name_Danbury,0
+categorical__city_name_Dallas,0
+categorical__city_name_Dale,0
+categorical__city_name_Crystal Falls,0
+categorical__city_name_Crossville,0
+categorical__city_name_Crossett,0
+categorical__city_name_Covington,0
+categorical__city_name_Council Bluffs,0
+categorical__city_name_Cottonwood West,0
+categorical__city_name_Cottage Grove,0
+categorical__city_name_Corvallis,0
+categorical__city_name_Cortina Indian Rancheria,0
+categorical__city_name_Cortez,0
+categorical__city_name_Corpus Christi,0
+categorical__city_name_Cornwall,0
+categorical__city_name_Forest Park,0
+categorical__city_name_Fort Collins,0
+categorical__city_name_Fort Lee,0
+categorical__city_name_Idaho Falls,0
+categorical__city_name_Hutchinson,0
+categorical__city_name_Huntsville,0
+categorical__city_name_Huntington,0
+categorical__city_name_Humacao,0
+categorical__city_name_Houston,0
+categorical__city_name_Hot Springs (Hot Springs National Park),0
+categorical__city_name_Horicon,0
+categorical__city_name_Hopewell (Township of),0
+categorical__city_name_Hoover,0
+categorical__city_name_Homestead,0
+categorical__city_name_Hollywood,0
+categorical__city_name_Hollister,0
+categorical__city_name_Holland,0
+categorical__city_name_Hobbs,0
+categorical__city_name_Hilo,0
+categorical__city_name_Hillsboro,0
+categorical__city_name_Highland Heights,0
+categorical__city_name_Highland,0
+categorical__city_name_High Point,0
+categorical__city_name_Hickory,0
+categorical__city_name_Hernando,0
+categorical__city_name_Hermiston,0
+categorical__city_name_Hendersonville,0
+categorical__city_name_Henderson,0
+categorical__city_name_Helena Valley West Central,0
+categorical__city_name_Hazard,0
+categorical__city_name_Hawaiian Ocean View,0
+categorical__city_name_Hyrum,0
+categorical__city_name_Incline Village-Crystal Bay,0
+categorical__city_name_Fort Meade (U.S. Army),0
+categorical__city_name_Indio,0
+categorical__city_name_Kennesaw,0
+categorical__city_name_Kenner,0
+categorical__city_name_Kenansville,0
+categorical__city_name_Keene,0
+categorical__city_name_Keeler,0
+categorical__city_name_Kealakekua,0
+categorical__city_name_Kaufman,0
+categorical__city_name_Kansas City,0
+categorical__city_name_Kannapolis,0
+categorical__city_name_Kalispell,0
+categorical__city_name_Kalamazoo,0
+categorical__city_name_Juneau,0
+categorical__city_name_Jonesboro,0
+categorical__city_name_Joliet,0
+categorical__city_name_Johnstown,0
+categorical__city_name_Jerseyville,0
+categorical__city_name_Jersey City,0
+categorical__city_name_Jenison,0
+categorical__city_name_Jeffersonville,0
+categorical__city_name_Jefferson,0
+categorical__city_name_Jean,0
+categorical__city_name_Jasper,0
+categorical__city_name_Jamesville,0
+categorical__city_name_Jacksonville,0
+categorical__city_name_Jackson,0
+categorical__city_name_Ironton,0
+categorical__city_name_Iowa City,0
+categorical__city_name_Haverhill,0
+categorical__city_name_Hattiesburg,0
+categorical__city_name_Hastings,0
+categorical__city_name_Hartford,0
+categorical__city_name_Grand Forks,0
+categorical__city_name_Gordon,0
+categorical__city_name_Goldsboro,0
+categorical__city_name_Glendale,0
+categorical__city_name_Glen Burnie,0
+categorical__city_name_Gilroy,0
+categorical__city_name_Gibbstown (Township name Greenwich),0
+categorical__city_name_Georgetown,0
+categorical__city_name_Gastonia,0
+categorical__city_name_Gary,0
+categorical__city_name_Garden City,0
+categorical__city_name_Galveston,0
+categorical__city_name_Galloway (Township of),0
+categorical__city_name_Gainesville,0
+categorical__city_name_Gadsden,0
+categorical__city_name_Frisco,0
+categorical__city_name_Frenchtown,0
+categorical__city_name_Fremont,0
+categorical__city_name_Freemansburg,0
+categorical__city_name_Franklin,0
+categorical__city_name_Frankfort,0
+categorical__city_name_Fort Worth,0
+categorical__city_name_Fort Wayne,0
+categorical__city_name_Fort Thomas,0
+categorical__city_name_Fort Smith,0
+categorical__city_name_Fort Pierce,0
+categorical__city_name_Fort Myers,0
+categorical__city_name_Grand Island,0
+categorical__city_name_Grand Junction,0
+categorical__city_name_Grand Rapids,0
+categorical__city_name_Groveton,0
+categorical__city_name_Harrisville,0
+categorical__city_name_Harrison Township,0
+categorical__city_name_Harriman,0
+categorical__city_name_Hanford,0
+categorical__city_name_Hampton,0
+categorical__city_name_Hammond,0
+categorical__city_name_Hamilton,0
+categorical__city_name_Hamden (Town of),0
+categorical__city_name_Gulfport,0
+categorical__city_name_Gulf Breeze,0
+categorical__city_name_Guaynabo,0
+categorical__city_name_Guayanilla,0
+categorical__city_name_Griffith,0
+categorical__city_name_Grangeville,0
+categorical__city_name_Grenada,0
+categorical__city_name_Greenwood,0
+categorical__city_name_Greenwich (Township of),0
+categorical__city_name_Greensburg,0
+categorical__city_name_Greensboro,0
+categorical__city_name_Greenbelt,0
+categorical__city_name_Green Bay,0
+categorical__city_name_Greater Upper Marlboro,0
+categorical__city_name_Great Falls,0
+categorical__city_name_Grass Valley,0
+categorical__city_name_Grantsville,0
+categorical__city_name_Grants Pass,0
+categorical__city_name_Clarion,0
+categorical__city_name_Claremont,0
+categorical__city_name_Clairton,0
+categorical__city_name_Aberdeen,0
+categorical__county_name_York,0
+categorical__county_name_Yolo,0
+categorical__county_name_Yellowstone,0
+categorical__county_name_Yavapai,0
+categorical__county_name_Yakima,0
+categorical__county_name_Wyandotte,0
+categorical__county_name_Wright,0
+categorical__county_name_Worcester,0
+categorical__county_name_Woodbury,0
+categorical__county_name_Wood,0
+categorical__county_name_Winnebago,0
+categorical__county_name_Will,0
+categorical__county_name_Wilkinson,0
+categorical__county_name_Whitman,0
+categorical__county_name_Whitley,0
+categorical__county_name_White,0
+categorical__county_name_Whatcom,0
+categorical__county_name_Westmoreland,0
+categorical__county_name_Westchester,0
+categorical__county_name_West Baton Rouge,0
+categorical__county_name_Webb,0
+categorical__county_name_Waupaca,0
+categorical__county_name_Waukesha,0
+categorical__county_name_Watauga,0
+categorical__county_name_Washtenaw,0
+categorical__county_name_Washoe,0
+categorical__county_name_Wasco,0
+categorical__county_name_Yuma,0
+categorical__city_name_Adjuntas,0
+categorical__city_name_Arlington,0
+categorical__city_name_Akron,0
+categorical__city_name_Arden-Arcade,0
+categorical__city_name_Arabi,0
+categorical__city_name_Appleton,0
+categorical__city_name_Apple Valley,0
+categorical__city_name_Apache Junction,0
+categorical__city_name_Annandale,0
+categorical__city_name_Ann Arbor,0
+categorical__city_name_Anderson,0
+categorical__city_name_Anchorage,0
+categorical__city_name_Anaheim,0
+categorical__city_name_Anadarko,0
+categorical__city_name_Amherst,0
+categorical__city_name_Ames,0
+categorical__city_name_Amarillo,0
+categorical__city_name_Amalga,0
+categorical__city_name_Alturas,0
+categorical__city_name_Altoona,0
+categorical__city_name_Alton,0
+categorical__city_name_Altamont,0
+categorical__city_name_Alpine,0
+categorical__city_name_Alpena,0
+categorical__city_name_Allentown,0
+categorical__city_name_Allen Park,0
+categorical__city_name_Alexandria,0
+categorical__city_name_Albuquerque,0
+categorical__city_name_Albert Lea,0
+categorical__city_name_Albany,0
+categorical__county_name_Warren,0
+categorical__county_name_Walla Walla,0
+categorical__county_name_Walker,0
+categorical__county_name_Volusia,0
+categorical__county_name_Summit,0
+categorical__county_name_Summers,0
+categorical__county_name_Sullivan,0
+categorical__county_name_Suffolk,0
+categorical__county_name_Sublette,0
+categorical__county_name_Story,0
+categorical__county_name_Stevens,0
+categorical__county_name_Steuben,0
+categorical__county_name_Steele,0
+categorical__county_name_Stearns,0
+categorical__county_name_Stark,0
+categorical__county_name_Stanislaus,0
+categorical__county_name_St. Tammany,0
+categorical__county_name_St. Lucie,0
+categorical__county_name_St. Lawrence,0
+categorical__county_name_St. Croix,0
+categorical__county_name_St. Clair,0
+categorical__county_name_St. Bernard,0
+categorical__county_name_St Thomas,0
+categorical__county_name_St Croix,0
+categorical__county_name_Spokane,0
+categorical__county_name_Spencer,0
+categorical__county_name_Spartanburg,0
+categorical__county_name_Sonoma,0
+categorical__county_name_Solano,0
+categorical__county_name_Skamania,0
+categorical__county_name_Skagway-Hoonah-Angoon,0
+categorical__county_name_Sumner,0
+categorical__county_name_Sumter,0
+categorical__county_name_Sussex,0
+categorical__county_name_Trinity,0
+categorical__county_name_Virginia Beach City,0
+categorical__county_name_Vilas,0
+categorical__county_name_Vigo,0
+categorical__county_name_Van Buren,0
+categorical__county_name_Valley,0
+categorical__county_name_Umatilla,0
+categorical__county_name_Uintah,0
+categorical__county_name_Twin Falls,0
+categorical__county_name_Tuscaloosa,0
+categorical__county_name_Tulsa,0
+categorical__county_name_Tulare,0
+categorical__county_name_Trumbull,0
+categorical__county_name_Travis,0
+categorical__county_name_Sutter,0
+categorical__county_name_Tooele,0
+categorical__county_name_Tippecanoe,0
+categorical__county_name_Thurston,0
+categorical__county_name_Teton,0
+categorical__county_name_Terrebonne,0
+categorical__county_name_Taylor,0
+categorical__county_name_Tarrant,0
+categorical__county_name_Tangipahoa,0
+categorical__county_name_Tama,0
+categorical__county_name_Talladega,0
+categorical__county_name_Sweetwater,0
+categorical__county_name_Swain,0
+categorical__city_name_Ardmore,0
+categorical__city_name_Arnold,0
+categorical__city_name_City of The Dalles,0
+categorical__city_name_Casa Grande,0
+categorical__city_name_Carmel Valley Village,0
+categorical__city_name_Carlstadt,0
+categorical__city_name_Carlisle,0
+categorical__city_name_Canton,0
+categorical__city_name_Candor,0
+categorical__city_name_Camp Pendleton South,0
+categorical__city_name_Camden,0
+categorical__city_name_Camas,0
+categorical__city_name_Calexico,0
+categorical__city_name_Caldwell,0
+categorical__city_name_Butte-Silver Bow (Remainder),0
+categorical__city_name_Burns,0
+categorical__city_name_Burbank,0
+categorical__city_name_Buffalo,0
+categorical__city_name_Bryson City (RR name Bryson),0
+categorical__city_name_Brunswick,0
+categorical__city_name_Brookings,0
+categorical__city_name_Brook Park,0
+categorical__city_name_Brockton,0
+categorical__city_name_Brigham City,0
+categorical__city_name_Bridgeport,0
+categorical__city_name_Brewton,0
+categorical__city_name_Bremerton,0
+categorical__city_name_Brawley,0
+categorical__city_name_Braidwood,0
+categorical__city_name_Bradenton,0
+categorical__city_name_Bowling Green,0
+categorical__city_name_Cary,0
+categorical__city_name_Casper,0
+categorical__city_name_Arroyo Grande,0
+categorical__city_name_Castle Hayne,0
+categorical__city_name_Cincinnati,0
+categorical__city_name_Cicero,0
+categorical__city_name_Chula Vista,0
+categorical__city_name_Chubbuck,0
+categorical__city_name_Childersburg,0
+categorical__city_name_Chicopee,0
+categorical__city_name_Chico,0
+categorical__city_name_Chickasaw,0
+categorical__city_name_Chicago,0
+categorical__city_name_Cheyenne,0
+categorical__city_name_Chester,0
+categorical__city_name_Chesapeake,0
+categorical__city_name_Cherry Tree,0
+categorical__city_name_Chelmsford (Chelmsford Center),0
+categorical__city_name_Chehalis,0
+categorical__city_name_Chattanooga,0
+categorical__city_name_Charlotte Amalie,0
+categorical__city_name_Charlotte,0
+categorical__city_name_Charleroi,0
+categorical__city_name_Chapel Hill,0
+categorical__city_name_Channelview,0
+categorical__city_name_Champaign,0
+categorical__city_name_Chalmette,0
+categorical__city_name_Centralia,0
+categorical__city_name_Central Point,0
+categorical__city_name_Cedarhurst,0
+categorical__city_name_Cave Rock,0
+categorical__city_name_Bountiful,0
+categorical__city_name_Boulevard,0
+categorical__city_name_Boulder,0
+categorical__city_name_Boston,0
+categorical__city_name_Beaver Falls,0
+categorical__city_name_Beaufort,0
+categorical__city_name_Baytown,0
+categorical__city_name_Bayport,0
+categorical__city_name_Bayamon,0
+categorical__city_name_Bay St. Louis,0
+categorical__city_name_Bay City,0
+categorical__city_name_Battlement Mesa,0
+categorical__city_name_Baton Rouge,0
+categorical__city_name_Batavia,0
+categorical__city_name_Barre,0
+categorical__city_name_Banning,0
+categorical__city_name_Baltimore,0
+categorical__city_name_Babylon,0
+categorical__city_name_Azusa,0
+categorical__city_name_Avalon,0
+categorical__city_name_Austin,0
+categorical__city_name_Aurora,0
+categorical__city_name_Augusta-Richmond County (Remainder),0
+categorical__city_name_Auburn,0
+categorical__city_name_Atlantic City,0
+categorical__city_name_Athens-Clarke County (Remainder),0
+categorical__city_name_Athens (corp name Athens-Clarke County),0
+categorical__city_name_Athens,0
+categorical__city_name_Atascadero,0
+categorical__city_name_Ashland,0
+categorical__city_name_Asheville,0
+categorical__city_name_Beaverton,0
+categorical__city_name_Beckley,0
+categorical__city_name_Belle Glade,0
+categorical__city_name_Birmingham,0
+categorical__city_name_Boone,0
+categorical__city_name_Bonners Ferry,0
+categorical__city_name_Boise (corporate name Boise City),0
+categorical__city_name_Blytheville,0
+categorical__city_name_Bluefield,0
+categorical__city_name_Blue Island,0
+categorical__city_name_Blue Ash,0
+categorical__city_name_Bloomington,0
+categorical__city_name_Blair,0
+categorical__city_name_Blaine,0
+categorical__city_name_Bladensburg,0
+categorical__city_name_Bismarck,0
+categorical__city_name_Binghamton,0
+categorical__city_name_Bellevue,0
+categorical__city_name_Biloxi,0
+categorical__city_name_Billings,0
+categorical__city_name_Big Bear City,0
+categorical__city_name_Bethpage,0
+categorical__city_name_Berlin,0
+categorical__city_name_Bensley,0
+categorical__city_name_Bennington,0
+categorical__city_name_Bend,0
+categorical__city_name_Beltsville,0
+categorical__city_name_Beloit,0
+categorical__city_name_Bellview,0
+categorical__city_name_Bellingham,0
+categorical__cbsa_name_Yuma AZ,0

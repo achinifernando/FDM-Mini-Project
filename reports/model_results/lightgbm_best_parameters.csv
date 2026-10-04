@@ -1,0 +1,2 @@
+n_estimators,learning_rate,num_leaves,max_depth,subsample,colsample_bytree,validation_accuracy,validation_macro_f1
+200,0.05,31,5,0.8,1.0,0.7655636567582725,0.3824953183253211

@@ -1,0 +1,2 @@
+model,validation_accuracy,validation_macro_f1,hyperparameter_tuning,model_optimization
+Gradient Boosting Baseline,0.7504206393718452,0.30855476682478433,False,False

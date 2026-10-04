@@ -1,0 +1,2 @@
+Model,Validation Accuracy,Validation Macro F1
+LightGBM Tuned,0.7655636567582725,0.3824953183253211

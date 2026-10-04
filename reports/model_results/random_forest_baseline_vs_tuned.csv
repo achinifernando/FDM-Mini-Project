@@ -1,0 +1,3 @@
+model,validation_accuracy,validation_macro_f1,accuracy_change,macro_f1_change
+Random Forest Baseline,0.77005,0.346016,0.0,0.0
+Random Forest Tuned,0.765002804262479,0.40906720330759283,-0.005047195737520993,0.06305120330759284
