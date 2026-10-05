@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f8f7">
+    <meta name="description" content="Explore a next-year PM2.5 risk category prediction for an EPA monitoring site.">
+    <title>Airwise — PM2.5 risk outlook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Airwise home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M7 22.2c4.2-.1 6.3-2.2 6.3-6.3 4.1 0 6.2-2.1 6.3-6.3 4.2.1 6.3 2.2 6.3 6.3 0 5.2-4.3 9.4-9.5 9.4H7v-3.1Z" fill="currentColor"/><path d="M7.2 17.6c2.9 0 4.4-1.5 4.4-4.4" stroke="#F5F8F7" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </span>
+          <span>airwise<span class="brand-period">.</span></span>
+        </a>
+        <div class="topbar-note"><span class="live-dot"></span> EPA historical monitoring data</div>
+      </header>
+
+      <main>
+        <section class="hero-section">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> AIR QUALITY, AHEAD OF TIME</p>
+            <h1>A clearer view<br>of <span>what's next.</span></h1>
+            <p class="hero-intro">Use recent annual site readings to estimate next year's PM2.5 risk category, confidence, and practical outdoor activity guidance.</p>
+            <div class="hero-footnote">
+              <span class="note-icon" aria-hidden="true">i</span>
+              <span>Planning support only. This project estimate is not an official AQI forecast or health advisory.</span>
+            </div>
+          </div>
+
+          <aside class="outlook-card" aria-label="Prediction overview">
+            <div class="card-sky">
+              <div class="sky-top"><span>YOUR NEXT-YEAR OUTLOOK</span><span class="sky-sparkle" aria-hidden="true">✳</span></div>
+              <div class="air-orbit orbit-one"></div>
+              <div class="air-orbit orbit-two"></div>
+              <div class="sun-disc"></div>
+              <div class="hill hill-back"></div>
+              <div class="hill hill-front"></div>
+              <div class="sky-caption"><span class="caption-dot"></span> A little context goes a long way</div>
+            </div>
+            <div class="outlook-card-body">
+              <div class="mini-stat"><span class="mini-icon">01</span><span><b>Grounded in real data</b><small>Built with EPA site-year observations</small></span></div>
+              <div class="mini-stat"><span class="mini-icon">02</span><span><b>Trends included</b><small>Recent history is used when available</small></span></div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="form-intro" id="prediction-form">
+          <div>
+            <p class="eyebrow">YOUR SITE SNAPSHOT</p>
+            <h2>Build your outlook</h2>
+            <p>Use historical annual values from one monitoring site. Fields marked <span class="required-mark">*</span> are needed to predict.</p>
+          </div>
+          <div class="units-pill"><span class="unit-dot"></span> PM2.5 values in µg/m³</div>
+        </section>
+
+        <form id="predict-form" novalidate>
+          <section class="form-card">
+            <div class="section-heading">
+              <div class="section-number">01</div>
+                <div><h3>Location Information</h3><p>Choose a site from EPA records or enter your own historical site values.</p></div>
+              <span class="section-complete" aria-hidden="true">●</span>
+            </div>
+            <fieldset class="site-mode">
+              <legend class="sr-only">Site information source</legend>
+              <label><input type="radio" name="site_mode" value="epa" checked> <span>Choose an EPA site</span></label>
+              <label><input type="radio" name="site_mode" value="manual"> <span>Enter site values manually</span></label>
+            </fieldset>
+            <div class="form-grid form-grid-location" id="epa-site-inputs">
+              <label class="field">
+                <span>State <span class="required-mark">*</span></span>
+                <select class="select select-bordered" id="state-select" name="state_name" required>
+                  <option value="">Loading states…</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>County <span class="required-mark">*</span></span>
+                <select class="select select-bordered" id="county-select" name="county_name" required disabled>
+                  <option value="">Choose a state first</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>City or site area <span class="required-mark">*</span></span>
+                <select class="select select-bordered" id="city-select" name="city_name" required disabled>
+                  <option value="">Choose a county first</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Metro area <span class="required-mark">*</span></span>
+                <select class="select select-bordered" id="metro-select" name="cbsa_name" required disabled>
+                  <option value="">Choose a city first</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>EPA monitoring site <span class="required-mark">*</span></span>
+                <select class="select select-bordered" id="site-select" name="site_id" required disabled>
+                  <option value="">Choose a metro area first</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Reading year <span class="required-mark">*</span></span>
+                <select class="select select-bordered" id="year-select" name="year" required disabled>
+                  <option value="">Choose a site first</option>
+                </select>
+                <small>Years available for the selected site.</small>
+                <small class="site-data-status" id="site-data-status" aria-live="polite"></small>
+              </label>
+              <label class="field">
+                <span>Latitude</span>
+                <input class="input input-bordered" name="latitude" type="number" readonly aria-readonly="true" placeholder="Filled from the selected site" required>
+              </label>
+              <label class="field">
+                <span>Longitude</span>
+                <input class="input input-bordered" name="longitude" type="number" readonly aria-readonly="true" placeholder="Filled from the selected site" required>
+              </label>
+            </div>
+            <div class="form-grid form-grid-location" id="manual-site-inputs" hidden>
+              <label class="field"><span>State or region <span class="required-mark">*</span></span><input class="input input-bordered" name="manual_state_name" maxlength="100" placeholder="e.g. California" disabled></label>
+              <label class="field"><span>County <span class="required-mark">*</span></span><input class="input input-bordered" name="manual_county_name" maxlength="100" placeholder="e.g. Los Angeles" disabled></label>
+              <label class="field"><span>City or site area <span class="required-mark">*</span></span><input class="input input-bordered" name="manual_city_name" maxlength="100" placeholder="e.g. Pasadena" disabled></label>
+              <label class="field"><span>Metro area <span class="required-mark">*</span></span><input class="input input-bordered" name="manual_cbsa_name" maxlength="100" placeholder="Enter Unknown if not applicable" disabled></label>
+              <label class="field"><span>Monitoring site ID <span class="required-mark">*</span></span><input class="input input-bordered" name="manual_site_id" maxlength="100" placeholder="Your site identifier" disabled></label>
+              <label class="field"><span>Reading year <span class="required-mark">*</span></span><input class="input input-bordered" name="manual_year" type="number" min="1980" max="2100" step="1" placeholder="e.g. 2024" disabled></label>
+              <label class="field"><span>Latitude <span class="required-mark">*</span></span><input class="input input-bordered" name="manual_latitude" type="number" min="-90" max="90" step="any" placeholder="e.g. 34.1478" disabled></label>
+              <label class="field"><span>Longitude <span class="required-mark">*</span></span><input class="input input-bordered" name="manual_longitude" type="number" min="-180" max="180" step="any" placeholder="e.g. -118.1445" disabled></label>
+            </div>
+          </section>
+
+          <section class="form-card">
+            <div class="section-heading">
+              <div class="section-number">02</div>
+              <div><h3>Air Quality Measurements</h3><p>Annual PM2.5 statistics from the selected site and year. You can adjust the values.</p></div>
+            </div>
+            <div class="form-grid form-grid-measurements">
+              <label class="field">
+                <span>Annual mean <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="pm25_mean" type="number" min="0" max="2000" step="any" placeholder="e.g. 8.2" required><span>µg/m³</span></div>
+                <small>Average concentration across valid observations.</small>
+              </label>
+              <label class="field">
+                <span>Highest 24-hour value <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="first_max_value" type="number" min="0" max="2000" step="any" placeholder="e.g. 42.0" required><span>µg/m³</span></div>
+              </label>
+              <label class="field">
+                <span>Standard deviation <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="arithmetic_standard_dev" type="number" min="0" max="1000" step="any" placeholder="e.g. 5.4" required><span>µg/m³</span></div>
+              </label>
+              <label class="field">
+                <span>99th percentile <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="ninety_nine_percentile" type="number" min="0" max="2000" step="any" placeholder="e.g. 36.0" required><span>µg/m³</span></div>
+              </label>
+              <label class="field">
+                <span>98th percentile <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="ninety_eight_percentile" type="number" min="0" max="2000" step="any" placeholder="e.g. 30.0" required><span>µg/m³</span></div>
+              </label>
+              <label class="field">
+                <span>95th percentile <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="ninety_five_percentile" type="number" min="0" max="2000" step="any" placeholder="e.g. 25.0" required><span>µg/m³</span></div>
+              </label>
+              <label class="field">
+                <span>90th percentile <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="ninety_percentile" type="number" min="0" max="2000" step="any" placeholder="e.g. 20.0" required><span>µg/m³</span></div>
+              </label>
+              <label class="field">
+                <span>75th percentile <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="seventy_five_percentile" type="number" min="0" max="2000" step="any" placeholder="e.g. 15.0" required><span>µg/m³</span></div>
+              </label>
+              <label class="field">
+                <span>Median (50th percentile) <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="fifty_percentile" type="number" min="0" max="2000" step="any" placeholder="e.g. 9.0" required><span>µg/m³</span></div>
+              </label>
+              <label class="field">
+                <span>10th percentile <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="ten_percentile" type="number" min="0" max="2000" step="any" placeholder="e.g. 3.0" required><span>µg/m³</span></div>
+              </label>
+            </div>
+            <div class="interactive-chart" aria-labelledby="measurement-chart-title">
+              <div class="chart-heading">
+                <div><h4 id="measurement-chart-title">Annual reading profile</h4><p>Updates as you edit the percentile readings.</p></div>
+                <span class="chart-unit">µg/m³</span>
+              </div>
+              <svg id="measurement-chart" class="measurement-chart" viewBox="0 0 720 190" role="img" aria-label="Enter readings to see their relative values"></svg>
+            </div>
+            <div class="subsection-divider"></div>
+          </section>
+
+          <section class="form-card">
+            <div class="section-heading">
+              <div class="section-number">03</div>
+              <div><h3>Monitoring Information</h3><p>Review data coverage, add earlier readings, and choose an alert sensitivity.</p></div>
+            </div>
+            <div class="form-grid form-grid-three">
+              <label class="field">
+                <span>Valid observations <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="observation_count" type="number" min="1" max="366" step="1" placeholder="e.g. 320" required><span>days</span></div>
+              </label>
+              <label class="field">
+                <span>Data coverage <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="observation_percent" type="number" min="0" max="100" step="any" placeholder="e.g. 88" required><span>%</span></div>
+              </label>
+              <label class="field">
+                <span>Valid days in the year <span class="required-mark">*</span></span>
+                <div class="input-wrap"><input class="input input-bordered" name="valid_day_count" type="number" min="1" max="366" step="1" placeholder="e.g. 320" required><span>days</span></div>
+              </label>
+            </div>
+
+          <details class="history-card">
+            <summary>
+              <span class="history-symbol" aria-hidden="true">↗</span>
+              <span class="history-title"><b>Add recent history</b><small>Optional — improves the context when you have it</small></span>
+              <span class="history-toggle">Add details <span aria-hidden="true">＋</span></span>
+            </summary>
+            <div class="history-content">
+              <p>Enter the annual PM2.5 mean from this same site in either or both earlier calendar years. Leave unknown years blank; the model will mark that history as unavailable.</p>
+              <div class="form-grid form-grid-two">
+                <label class="field">
+                  <span>Previous calendar year</span>
+                  <div class="input-wrap"><input class="input input-bordered" name="previous_year_pm25_mean" type="number" min="0" max="2000" step="any" placeholder="e.g. 7.8"><span>µg/m³</span></div>
+                </label>
+                <label class="field">
+                  <span>Two years before</span>
+                  <div class="input-wrap"><input class="input input-bordered" name="two_years_ago_pm25_mean" type="number" min="0" max="2000" step="any" placeholder="e.g. 8.6"><span>µg/m³</span></div>
+                </label>
+              </div>
+            </div>
+          </details>
+
+            <label class="field sensitivity-field">
+              <span>Alert setting</span>
+              <select class="select select-bordered" name="sensitivity">
+                <option value="general">General public — alert at Unhealthy or higher</option>
+                <option value="sensitive" selected>Sensitive groups — alert at Unhealthy for Sensitive Groups or higher</option>
+                <option value="high">High precaution — alert at Moderate or higher</option>
+              </select>
+              <small>This changes the activity alert, not the model's predicted category.</small>
+            </label>
+
+            <details class="batch-card" id="batch-prediction">
+              <summary class="batch-summary"><span>Regional overview</span><small>Predict up to 200 monitoring sites from a CSV</small><b aria-hidden="true">＋</b></summary>
+              <div class="batch-controls">
+                <label class="field batch-file-field">
+                  <span>Monitoring site data (CSV)</span>
+                  <input class="input input-bordered" id="batch-file" type="file" accept=".csv,text/csv">
+                  <small>Each row should contain one site's annual statistics. Invalid rows will be listed separately.</small>
+                </label>
+                <label class="field sensitivity-field">
+                  <span>Regional alert setting</span>
+                  <select class="select select-bordered" id="batch-sensitivity">
+                    <option value="general">General public</option>
+                    <option value="sensitive" selected>Sensitive groups</option>
+                    <option value="high">High precaution</option>
+                  </select>
+                </label>
+                <div class="batch-actions">
+                  <button class="btn btn-ghost" id="download-template" type="button">Download CSV template</button>
+                  <button class="btn btn-primary" id="run-batch" type="button">Predict all sites <span aria-hidden="true">↗</span></button>
+                </div>
+              </div>
+              <div class="alert form-message" id="batch-message" role="alert" aria-live="polite" hidden></div>
+              <div class="batch-results" id="batch-results" hidden>
+                <div class="batch-results-heading"><h4 id="batch-summary"></h4><button class="btn btn-ghost" id="download-results" type="button">Download results CSV</button></div>
+                <div class="table-scroll"><table class="table batch-table"><thead><tr><th>Site</th><th>Year</th><th>Predicted category</th><th>Model estimate</th><th>Activity alert</th><th>Explanation</th></tr></thead><tbody id="batch-result-rows"></tbody></table></div>
+              </div>
+            </details>
+
+          <div class="submit-row">
+            <div class="privacy-note"><span aria-hidden="true">⌁</span> Your entries are used for this prediction only.</div>
+            <button class="btn btn-primary predict-button" id="predict-button" type="submit">
+              <span class="button-label">Get my outlook</span>
+              <span class="button-arrow" aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <div id="form-message" class="alert form-message" role="alert" aria-live="polite" hidden></div>
+          </section>
+        </form>
+
+        <section class="result-card" id="result" aria-live="polite" hidden>
+          <div class="section-heading result-section-heading">
+            <div class="section-number">04</div>
+            <div><h3>Prediction Result</h3><p>Your next-year category and activity guidance.</p></div>
+          </div>
+          <div class="result-topline"><span class="result-check" aria-hidden="true">✓</span> YOUR NEXT-YEAR OUTLOOK</div>
+          <div class="result-content">
+            <div>
+              <p class="result-label">Predicted project category</p>
+              <h2 id="result-category"></h2>
+              <p id="result-description" class="result-description"></p>
+            </div>
+            <div class="result-range"><span>PROJECT CATEGORY BAND</span><b id="result-range"></b><small>PM2.5 concentration threshold</small></div>
+          </div>
+          <div class="result-extras">
+            <div class="result-confidence" id="confidence-panel"><span id="confidence-label">MODEL PROBABILITY ESTIMATE</span><b id="result-confidence"></b><small id="confidence-note">An estimate from this saved model; it is not a guarantee.</small></div>
+            <div class="activity-guidance" id="activity-guidance"></div>
+          </div>
+          <div class="risk-diagram" aria-labelledby="risk-diagram-title">
+            <div class="chart-heading"><div><h4 id="risk-diagram-title">Project risk-category scale</h4><p>The marker highlights the category returned by the existing model.</p></div></div>
+            <div class="risk-band" id="risk-band" role="img" aria-label="Predicted project risk category">
+              <span data-category="Good">Good</span>
+              <span data-category="Moderate">Moderate</span>
+              <span data-category="Unhealthy for Sensitive Groups">Sensitive groups</span>
+              <span data-category="Unhealthy">Unhealthy</span>
+              <span data-category="Very Unhealthy">Very unhealthy</span>
+            </div>
+          </div>
+          <div class="explanation-panel"><b>What the recent readings show</b><ul id="result-explanation"></ul></div>
+          <p class="result-disclaimer">This project estimates a next-year risk category from historical PM2.5 site statistics; it is not an official EPA AQI forecast or health advisory. Follow current local air-quality alerts when making health decisions.</p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>Airwise<span class="brand-period">.</span> <span class="footer-sub">A student project in air-quality data mining</span></span>
+        <span>Next-year PM2.5 risk classification · EPA historical data</span>
+      </footer>
+    </div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
