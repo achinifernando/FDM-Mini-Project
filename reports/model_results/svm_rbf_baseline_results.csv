@@ -1,0 +1,2 @@
+model,kernel,C,gamma,validation_accuracy,validation_macro_f1
+SVM (RBF) Baseline,rbf,1.0,scale,0.7537857543466069,0.29714792586640243
