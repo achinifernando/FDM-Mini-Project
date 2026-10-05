@@ -13,7 +13,9 @@
 
 ## Project Overview
 
-This project builds a machine learning system to predict the next-year PM2.5 air quality risk category for EPA monitoring sites across the United States.
+This project provides an annual planning estimate of the next-year PM2.5 risk category for an EPA monitoring site. The app is organized into Location Information, Air Quality Measurements, Monitoring Information, and Prediction Result. Staff can select an available EPA site-year or enter annual statistics manually, see an interactive measurement profile and predicted-category scale, set an outdoor-activity alert threshold, and optionally upload a CSV for regional predictions of up to 200 sites.
+
+The category is an engineered project indicator based on the following year's maximum reported daily PM2.5 concentration. It is not an official AQI forecast, health advisory, or causal explanation of the model. The app uses the saved model as-is and does not retrain or recalibrate it. A model probability estimate is shown only if the saved model provides one; it is not a guarantee of accuracy.
 
 ## Dataset
 
@@ -25,19 +27,26 @@ This project builds a machine learning system to predict the next-year PM2.5 air
 ## Quick Start
 
 ```bash
-# Clone repository
-git clone https://github.com/your-username/air-quality-risk-classification.git
-cd air-quality-risk-classification
-
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
+# Windows PowerShell: .\venv\Scripts\Activate.ps1
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run full pipeline
-python scripts/run_pipeline.py
+# Launch the prediction app
+python app/backend/server.py
+```
 
-# Launch application
-streamlit run app/frontend/streamlit_app.py
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser. Select a state, county, city, metro area, monitoring site, and available year from the cascading menus; readings and coordinates from `data/interim/ml_ready_base.csv` are filled in and may be edited. Alternatively, switch to manual entry. Optional recent annual means can be provided when available; missing history is explicitly represented in the model features. The annual profile updates with the entered percentile readings, and the result diagram highlights the predicted category.
+
+The three alert settings change only the activity-guidance threshold, not the predicted category:
+
+- **General public:** alert at Unhealthy or higher.
+- **Sensitive groups:** alert at Unhealthy for Sensitive Groups or higher.
+- **High precaution:** alert at Moderate or higher.
+
+For a regional overview, use **Download CSV template**, fill one row per site, and upload the CSV. The API accepts up to 200 site rows per batch, reports invalid rows individually, and returns a downloadable results CSV. The batch endpoint is `POST /api/predict/batch` with `Content-Type: text/csv` and optional `X-Sensitivity: general|sensitive|high`.
+
+The server loads the fitted preprocessing and prediction pipeline from `models/best_model.joblib` and uses the feature engineering in `src/features/feature_engineering.py`. The repository identifies the EPA Air Quality System as the original source and documents a 1987–2017 dataset range, with the model-ready dropdown records spanning 1997–2016. The repository does not contain the exact BigQuery project, table, extraction query, or query-level date filter; those details must be recovered from the original extraction before claiming that the BigQuery build can be reproduced exactly. Run the backend tests with `python -m pytest tests/test_prediction_app.py`.
